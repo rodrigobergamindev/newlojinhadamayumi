@@ -1,6 +1,7 @@
 import {Container} from './styles'
-
-
+import {Slider} from '../Slider/index'
+import {ShippingSection} from './ShippingContent/index'
+import { ProductsContent } from './Products'
 
 
 
@@ -9,16 +10,9 @@ export function Home() {
 
     return (
         <Container>
-           <h1>hey</h1>
-           <h1>hey</h1>
-           <h1>hey</h1>
-           <h1>hey</h1>
-           <h1>hey</h1>
-           <h1>hey</h1>
-           <h1>hey</h1>
-           <h1>hey</h1>
-           <h1>hey</h1>
-           <h1>hey</h1>
+        <Slider/>
+        <ShippingSection/>
+        <ProductsContent/>
         </Container>
     )
 }

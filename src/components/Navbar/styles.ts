@@ -60,19 +60,20 @@ export const ButtonContato = styled.button`
     border: 0;
     
     width: 100%;
-    max-width: 200px;
+    max-width: 150px;
 
-    align-items: center;
+    display: flex;
+    justify-content:center;
     padding: 1rem;
 
     img {
-
-      margin-right:1rem;
-      width: 15px;
+      width: 20px;
+     
     }
 
     span {
-      
+      margin-left: 0.4rem;
+     
       color: var(--secondary);
     }
 

@@ -7,9 +7,6 @@ export const GlobalStyle = createGlobalStyle `
     :root {
         --primary: #ff3838;
         --secondary: #F0F2F5;
-        --text: #303131;
-        --terciary: #08F6EB;
-        --background: #F0F2F5;
     }
     * {
         margin:0;
