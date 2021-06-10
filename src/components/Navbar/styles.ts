@@ -22,7 +22,6 @@ export const ContainerNav = styled.ul`
   
   li {
     margin: 0 2rem;
-
     .arrow {
       width: 10px;
       margin-left:0.5rem;
@@ -60,21 +59,21 @@ export const ButtonContato = styled.button`
     outline: 0;
     border: 0;
     
-    color: var(--secondary);
     width: 100%;
     max-width: 200px;
-    font-size: 1rem;
+
     align-items: center;
     padding: 1rem;
 
     img {
-      border: 1px solid green;
-      margin: 0 1rem;
+
+      margin-right:1rem;
       width: 15px;
     }
 
     span {
-      border: 1px solid green;
+      
+      color: var(--secondary);
     }
 
 
