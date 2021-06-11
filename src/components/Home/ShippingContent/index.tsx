@@ -8,8 +8,8 @@ export function ShippingSection() {
         <Container>
             {contentCards.map((item,index) => {
                 return (
-                    <a href={item.url} target="_blank">
-                    <div key={index} className="card">
+                    <a href={item.url} target="_blank" key={index}>
+                    <div className="card">
                         <img src={item.icon} alt="card" />
                         <div className="subtitle">
                             <span>{item.subtitle}</span>

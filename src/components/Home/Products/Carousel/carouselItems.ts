@@ -7,7 +7,7 @@ export const carouselItems = [
     {   
         url: 'https://drive.google.com/file/d/1XMg53_Twv8rH-qqRjALxj3W88rWSYp0E/view?usp=sharing',
         title: 'Berloques Banhados',
-        img: '/img/carousel/banhados.jpeg'
+        img: '/img/carousel/banhado.jpeg'
     },
     {   
         url: 'https://drive.google.com/file/d/1vIuZH3gY3hxDmuId_QgwLm3Y2NYB2ZnE/view?usp=sharing',
@@ -16,7 +16,7 @@ export const carouselItems = [
     },
     {   
         url: 'https://drive.google.com/file/d/1Au_1vcOvM_DSm686KKpyBsvuuAg93qyY/view?usp=sharing',
-        title: 'Pulseiras, Braceletes e Travas',
+        title: 'Pulseiras',
         img: '/img/carousel/pulseiras.jpeg'
     },
     {   
@@ -31,7 +31,7 @@ export const carouselItems = [
     },
     {   
         url: 'https://drive.google.com/file/d/1MK9tfPUxSL0F0XDcULc0Skj7zbrYeXZ9/view?usp=sharing',
-        title: 'Colares e Pulseiras Tiffany & Co',
+        title: 'Tiffany & Co',
         img: '/img/carousel/tiffany.jpeg'
     },
 

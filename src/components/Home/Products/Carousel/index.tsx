@@ -1,43 +1,43 @@
-
 import {carouselItems} from './carouselItems'
-import TouchCarousel from 'react-touch-carousel'
 import {CarouselContainer} from './styles'
+
+import Swiper from 'react-id-swiper';
+
+
+
+
 
 export function CarouselProducts() {
 
 
+  const params = {
+    slidesPerView: 1.50,
+    spaceBetween: 30,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true
+    },
+    autoplay: {
+      delay: 1500,
+      disableOnInteraction: false
+    }
+  }
 
-
-      
-      function renderCard (index, modIndex, cursor) {
-        const item = carouselItems[modIndex]
-        
-        return (
-            <>
-
-                {carouselItems.map((item, index) => {
-                    <div>
-                       <img src={item.img} alt="" />
-                       <h2>{item.title}</h2>
-                    </div>
-                })}
-            </>
-        )
-
-      }
-      
     
-   
-
     return(
-        <TouchCarousel
-        component={CarouselContainer}
-        cardCount={carouselItems.length}
-        cardSize={375}
-        renderCard={renderCard}
-        loop
-        autoplay={3000}
-        />
+          <CarouselContainer>
+  
+          <Swiper {...params}>
+              {carouselItems.map((item, index) =>{
+                return (
+                       <img key={index} src={item.img} alt="" />
+                )
+               
+            })}
+        </Swiper>
+  
+        </CarouselContainer>
+    
     )
     
 }

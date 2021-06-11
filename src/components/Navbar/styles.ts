@@ -55,7 +55,7 @@ export const ContainerSocialMedia = styled.ul`
 
 export const ButtonContato = styled.button`
 
-    background: #1e272e;
+    background: var(--primary);
     outline: 0;
     border: 0;
     
@@ -65,6 +65,7 @@ export const ButtonContato = styled.button`
     display: flex;
     justify-content:center;
     padding: 1rem;
+    border-radius: 2px;
 
     img {
       width: 20px;

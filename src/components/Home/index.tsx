@@ -6,7 +6,8 @@ import { ProductsContent } from './Products'
 
 
 export function Home() {
-   
+
+
 
     return (
         <Container>

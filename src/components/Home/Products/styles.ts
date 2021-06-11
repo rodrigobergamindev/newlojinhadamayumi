@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
 
+
 export const Container = styled.section`
 
     display: grid;
-    border: 1px solid var(--primary);
     width: 100%;
     max-width: 1120px;
-    height: 30vh;
+    height: 40vh;
 
     margin-top: 6rem;
 
@@ -17,18 +17,15 @@ export const Container = styled.section`
     gap: 2rem;
 
     margin-bottom: 10rem;
-
-    .catalogs {
-        width: 100%;
-    }
+    border: 1px solid red;
 
     .description{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
         padding: 2rem;
 
-
+        height: 40vh;
         h4 {
             color: var(--primary);
         }
