@@ -23,7 +23,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/components/Home/Products/Carousel/index.jsx"  ],
   "exclude": [
     "node_modules"
   ]
