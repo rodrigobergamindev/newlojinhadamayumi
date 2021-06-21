@@ -7,6 +7,7 @@ export const GlobalStyle = createGlobalStyle `
     :root {
         --primary: #ff3838;
         --secondary: #F0F2F5;
+        --sub:#333;
     }
     * {
         margin:0;
@@ -49,4 +50,5 @@ export const GlobalStyle = createGlobalStyle `
             transform: translateY(-10%);
         }
     }
+
 `

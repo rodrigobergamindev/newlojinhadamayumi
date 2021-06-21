@@ -1,10 +1,10 @@
 import {carouselItems} from './carouselItems'
 import {CarouselContainer} from './styles'
 
-import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import SwiperCore, { A11y, Autoplay, Navigation, Pagination, Scrollbar } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
+SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Autoplay]);
 
 
 
@@ -15,13 +15,14 @@ export function CarouselProducts() {
           <CarouselContainer>
 
     <Swiper
-      spaceBetween={50}
+      spaceBetween={30}
       slidesPerView={2}
       navigation
-      pagination={{ clickable: true }}
+      pagination={{ clickable: true}}
       scrollbar={{ draggable: true }}
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log('slide change')}
+      autoplay={{delay: 3000,  disableOnInteraction: false}}
     >
       {carouselItems.map((item, index) =>{
                 return (

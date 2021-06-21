@@ -11,13 +11,9 @@ export const Container = styled.section`
 
     margin-top: 6rem;
 
-
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     gap: 2rem;
-
-    margin-bottom: 10rem;
-    border: 1px solid red;
 
     .description{
         display: flex;

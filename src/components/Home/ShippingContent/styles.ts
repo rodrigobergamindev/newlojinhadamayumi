@@ -38,7 +38,6 @@ export const Container = styled.section`
                 color: var(--primary);
             }
         }
-
         &:hover {
             cursor: pointer;
             border: 1px solid var(--primary);
