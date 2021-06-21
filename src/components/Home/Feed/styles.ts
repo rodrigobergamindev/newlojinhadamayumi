@@ -57,6 +57,7 @@ export const DisplaySocialMedia = styled.div`
         background: var(--primary);
         width: 100%;
 
+        
         margin-top: 5rem;
         margin-bottom: 5rem;
         border-radius: 4px;

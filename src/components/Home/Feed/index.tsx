@@ -35,7 +35,7 @@ export  function Feed() {
                     <span>E fique sempre por dentro das nossas novidades em primeira mão!</span>
                 </div>
 
-                <button><img src="/img/socialMedia/instagram.png" alt="instagram" /><span>@lojinha_da_mayumi</span></button>
+                <a href="https://www.instagram.com/lojinha_da_mayumi/" target="_blank"><button><img src="/img/socialMedia/instagram.png" alt="instagram" /><span>@lojinha_da_mayumi</span></button></a>
     </div>
 
 
