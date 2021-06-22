@@ -15,14 +15,12 @@ export function CarouselProducts() {
           <CarouselContainer>
 
     <Swiper
+      style={{'--swiper-navigation-color': '#ff3838','--swiper-pagination-color': '#ff3838'}}
       spaceBetween={30}
       slidesPerView={2}
-      navigation
       pagination={{ clickable: true}}
       scrollbar={{ draggable: true }}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}
-      autoplay={{delay: 3000,  disableOnInteraction: false}}
+      autoplay={{delay: 2000,  disableOnInteraction: false}}
     >
       {carouselItems.map((item, index) =>{
                 return (

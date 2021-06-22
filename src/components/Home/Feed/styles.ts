@@ -3,7 +3,8 @@ import styled from 'styled-components';
 
 
 export const StyledFeed = styled.div`
-  
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     width: 100%;
 `
 
@@ -14,23 +15,31 @@ export const CardPost = styled.div`
     justify-content: center;
     overflow: hidden;
     transition: all 0.5s ease;
+    display: flex;
     
-    img {
+    .post {
         object-fit: cover;
         width: 100%;
         height: 100%;
         transition: all 0.5s ease;
+        filter: ${props => props.postActive ? "brightness(75%)" : "none"};
        
-        &:hover {
-           
+        &:hover { 
             transform: scale(1.2);
-            box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
         }
     }
     a{
         display:flex;
         align-items:center;
         justify-content: center;
+    }
+
+    .instagram {
+        position: absolute;
+        align-self: center;
+        max-width: 30px;
+        max-height: 30px;
+        visibility: ${props => props.postActive ? "visible" : "hidden"};
     }
 `
 

@@ -2,33 +2,31 @@ import {useState, useEffect} from 'react'
 import { Post } from './Post';
 import {StyledFeed, DisplaySocialMedia} from './styles'
 
-import SwiperCore, { A11y, Autoplay, Navigation, Pagination, Scrollbar } from 'swiper';
+import SwiperCore, {A11y, Autoplay, Navigation, Pagination, Scrollbar } from 'swiper/core';
 import { Swiper, SwiperSlide } from 'swiper/react';
+
 
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Autoplay]);
 
 
 
 
-interface Posts {
-    id: number;
-    permalink: string;
-    media_url: string;
-    media_type: string;
-}
-
 const tokenAcess = 'IGQVJXa1ZA2dEZAuUDBDMmpHZAWFrVUtrQTNUQndiOTRLVWlmelpqZAnJ5OERlY3I3Mnd6YTBOc2txX25nX1RVbjlwcHVZAZA3c4VnI0UGp2dmtrR2FidEtFdGdBTEx5UENoeTRMMlEtam1leHc1VkNQeWRSWgZDZD'
 
 
 
 export  function Feed() {
-    const [feed, setFeed] = useState<Posts[]>([]);
+    const [feed, setFeed] = useState([]);
+    const [postActive, setPostActive] = useState(false);
+
 
     useEffect(() => {
         fetch(`https://graph.instagram.com/me/media?fields=media_count,media_type,permalink,media_url&&access_token=${tokenAcess}`)
         .then(response => response.json())
         .then(data => setFeed(data.data))
     }, [])
+
+
 
   return (
 
@@ -47,14 +45,13 @@ export  function Feed() {
 
       <StyledFeed>
       <Swiper
-      spaceBetween={10}
-      slidesPerView={5}
-      navigation
+      style={{'--swiper-navigation-color': '#ff3838','--swiper-pagination-color': '#ff3838'}}
+      slidesPerView={4}
+      spaceBetween={25}
+
       pagination={{ clickable: true}}
       scrollbar={{ draggable: true }}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}
-      autoplay={{delay: 3000,  disableOnInteraction: false}}
+      autoplay={{delay: 2000,  disableOnInteraction: false}}
     >
                 {
                    feed.map((post, index) => {
