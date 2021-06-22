@@ -2,6 +2,11 @@ import {useState, useEffect} from 'react'
 import { Post } from './Post';
 import {StyledFeed, DisplaySocialMedia} from './styles'
 
+import SwiperCore, { A11y, Autoplay, Navigation, Pagination, Scrollbar } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Autoplay]);
+
 
 
 
@@ -32,7 +37,7 @@ export  function Feed() {
     <div className="title">
         <div className="description">
                     <h2>Conheça nosso <strong>Instagram</strong></h2>
-                    <span>E fique sempre por dentro das nossas novidades em primeira mão!</span>
+                    <span>Fique sempre por dentro das nossas novidades em primeira mão!</span>
                 </div>
 
                 <a href="https://www.instagram.com/lojinha_da_mayumi/" target="_blank"><button><img src="/img/socialMedia/instagram.png" alt="instagram" /><span>@lojinha_da_mayumi</span></button></a>
@@ -41,15 +46,26 @@ export  function Feed() {
 
 
       <StyledFeed>
+      <Swiper
+      spaceBetween={10}
+      slidesPerView={5}
+      navigation
+      pagination={{ clickable: true}}
+      scrollbar={{ draggable: true }}
+      onSwiper={(swiper) => console.log(swiper)}
+      onSlideChange={() => console.log('slide change')}
+      autoplay={{delay: 3000,  disableOnInteraction: false}}
+    >
                 {
                    feed.map((post, index) => {
-                       if(index <=7) {
+                       if(index <=30) {
                             return (
-                                <Post key={post.id} post={post}/>
+                                <SwiperSlide key={index}><Post key={post.id} post={post}/></SwiperSlide>
                                )
                        }
                    }) 
                 }
+    </Swiper>
       </StyledFeed>
 
       </DisplaySocialMedia>
