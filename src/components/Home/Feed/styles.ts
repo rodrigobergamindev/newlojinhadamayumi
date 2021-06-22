@@ -25,7 +25,7 @@ export const CardPost = styled.div`
         filter: ${props => props.postActive ? "brightness(75%)" : "none"};
        
         &:hover { 
-            transform: scale(1.2);
+            transform: ${props => props.postActive ? "scale(1.2)" : "none"}
         }
     }
     a{

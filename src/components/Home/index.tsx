@@ -5,6 +5,7 @@ import { ProductsContent } from './Products'
 import { About } from './About'
 import { Catalogs } from './Catalogs/index'
 import { Feed } from  './Feed/index'
+import { Pricing } from './Pricing'
 
 export function Home() {
 
@@ -18,6 +19,7 @@ export function Home() {
         <Catalogs/>
         <About/>
         <Feed/>
+        <Pricing/>
         </Container>
     )
 }
