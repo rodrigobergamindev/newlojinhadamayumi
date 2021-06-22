@@ -58,11 +58,9 @@ export  function Feed() {
     >
                 {
                    feed.map((post, index) => {
-                       if(index <=30) {
                             return (
                                 <SwiperSlide key={index}><Post key={post.id} post={post}/></SwiperSlide>
                                )
-                       }
                    }) 
                 }
     </Swiper>

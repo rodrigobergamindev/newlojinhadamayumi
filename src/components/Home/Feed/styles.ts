@@ -5,7 +5,6 @@ import styled from 'styled-components';
 export const StyledFeed = styled.div`
   
     width: 100%;
-
 `
 
 export const CardPost = styled.div`
