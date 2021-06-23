@@ -1,127 +1,67 @@
-import React from 'react';
-import SwipeableViews from 'react-swipeable-views';
-import { makeStyles, Theme, useTheme, createMuiTheme } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Tabs from '@material-ui/core/Tabs';
-import Tab from '@material-ui/core/Tab';
-import Typography from '@material-ui/core/Typography';
-import Box from '@material-ui/core/Box';
+
+import {useState} from 'react'
+import {Tab, Container,ContainerTab} from './styles'
+import {TableBerloques} from './tableBerloques'
 
 
-interface TabPanelProps {
-  children?: React.ReactNode;
-  dir?: string;
-  index: any;
-  value: any;
-}
-
-function TabPanel(props: TabPanelProps) {
-  const { children, value, index, ...other } = props;
-
-
-  return (
-    <div
-      role="tabpanel"
-      hidden={value !== index}
-      id={`full-width-tabpanel-${index}`}
-      aria-labelledby={`full-width-tab-${index}`}
-      {...other}
-    >
-      {value === index && (
-        <Box p={3}>
-          <Typography>{children}</Typography>
-        </Box>
-      )}
-    </div>
-  );
-}
-
-function a11yProps(index: any) {
-  return {
-    id: `full-width-tab-${index}`,
-    'aria-controls': `full-width-tabpanel-${index}`,
-  };
-}
-
-const useStyles = makeStyles((theme: Theme) => ({
-  root: {
-    backgroundColor: theme.palette.background.paper,
-    width: '100%',
-  },
-  tab: {
-      backgroundColor: 'red',
-      color: 'white',
-      fontFamily: 'Poppins'
-  }
-}));
 
 
 
 export function FullWidthTabs() {
-  const classes = useStyles();
-  const theme = useTheme();
-  const [value, setValue] = React.useState(0);
 
-  const handleChange = (event: React.ChangeEvent<{}>, newValue: number) => {
-    setValue(newValue);
-  };
+  const [active, setActive] = useState(false);
 
-  const handleChangeIndex = (index: number) => {
-    setValue(index);
-  };
-
+  
   return (
-    <div className={classes.root}>
-      <AppBar position="static" color="default">
-        <Tabs
+    <Container>
 
-          value={value}
-          onChange={handleChange}
-          indicatorColor="secondary"
-          textColor="secondary"
-          variant="fullWidth"
-          aria-label="full width tabs example"
-        >
-          <Tab label="Berloques" {...a11yProps(0)} />
-          <Tab label="Pulseiras" {...a11yProps(1)} />
-          <Tab label="Travas" {...a11yProps(2)} />
-          <Tab label="Muranos" {...a11yProps(3)} />
-          <Tab label="Tiffany" {...a11yProps(4)} />
-          <Tab label="Argolas" {...a11yProps(5)} />
-          <Tab label="Colares" {...a11yProps(6)} />
-        </Tabs>
-      </AppBar>
-      <SwipeableViews
-        axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
-        index={value}
-        onChangeIndex={handleChangeIndex}
-      >
-        <TabPanel value={value} index={0} dir={theme.direction}>
-          Item One
-        </TabPanel>
-        <TabPanel value={value} index={1} dir={theme.direction}>
-          Item Two
-        </TabPanel>
-        <TabPanel value={value} index={2} dir={theme.direction}>
-          Item Three
-        </TabPanel>
+      <ContainerTab>
 
-        <TabPanel value={value} index={3} dir={theme.direction}>
-          Item Three
-        </TabPanel>
+      
+    <Tab active={active} onClick={()=> {setActive(!active)}} >
+      <span>BERLOQUES</span>
+      <img src="/img/icons/arrowWhite.png" alt=""/>
+    </Tab>
 
-        <TabPanel value={value} index={4} dir={theme.direction}>
-          Item Three
-        </TabPanel>
+      <TableBerloques active={active}/>
 
-        <TabPanel value={value} index={5} dir={theme.direction}>
-          Item Three
-        </TabPanel>
+    </ContainerTab>
 
-        <TabPanel value={value} index={6} dir={theme.direction}>
-          Item Three
-        </TabPanel>
-      </SwipeableViews>
-    </div>
-  );
+    <ContainerTab>
+
+    <Tab active={active} onClick={()=> {setActive(!active)}} >
+      <span>PULSEIRAS</span>
+      <img src="/img/icons/arrowWhite.png" alt=""/>
+    </Tab>
+
+      <TableBerloques active={active}/>
+
+    </ContainerTab>
+
+    <ContainerTab>
+
+    <Tab active={active} onClick={()=> {setActive(!active)}} >
+      <span>TRAVAS</span>
+      <img src="/img/icons/arrowWhite.png" alt=""/>
+    </Tab>
+
+      <TableBerloques active={active}/>
+
+    </ContainerTab>
+
+    <ContainerTab>
+
+    <Tab active={active} onClick={()=> {setActive(!active)}} >
+      <span>MURANOS</span>
+      <img src="/img/icons/arrowWhite.png" alt=""/>
+    </Tab>
+
+      <TableBerloques active={active}/>
+
+    </ContainerTab>
+
+    </Container>
+  
+  )
+  
 }
