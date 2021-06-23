@@ -14,6 +14,77 @@ export const Container = styled.div`
         width: 100%;
         max-width: 1120px;
         margin-bottom: 5rem;
+
+
+        .title {
+
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+width: 100%;
+
+margin-top: 3rem;
+margin-bottom: 3rem;
+border-radius: 4px;
+
+
+
+
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+justify-items: center;
+align-items: center;
+gap: 2rem;
+
+.description {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+
+        
+       
+
+        h2 {
+            font-weight: 400;
+            font-size: 2.2rem;
+            
+            strong {
+                font-weight: 600;
+                color: var(--primary);
+            }
+            margin-bottom: 1rem;
+        }
+        }
+
+button {
+    background: var(--primary);
+    border:0;
+    outline: 0;
+    display: flex;
+    justify-content:center;
+    padding: 1rem;
+    border-radius: 1px;
+    
+    
+    transition: 0.3s ease-in-out;
+    border-radius: 4px;
+
+    img {
+        max-width: 25px;
+        margin-right: 0.3rem;
+        margin-right: 0.5rem;
+    }
+
+    span {
+        font-size: 1.2rem;
+        color: var(--secondary);
+    }
+
+    &:hover{
+        transition: 0.3s ease-in-out;
+        filter: brightness(120%);
+    }
+
+}
+}
     }
 
     
@@ -24,42 +95,60 @@ export const TablePricing = styled.table`
     margin-top: 1rem;
     border-collapse: collapse;
     width: 100%;
-    color: #34495e;
-    cursor: pointer;
+    margin-bottom: 2rem;
 
-    tbody {
-        overflow-y: scroll; 
-        height: 100px;
-        margin: 0;
-        border: none;
-        }
+    @keyframes rotateZ {
+  0% {
+    opacity: 0;
+    transform: translateZ(290px);
+  }
+  
+  80% {
+    transform: translateZ(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
     
     
 
     td, th {
-        
         text-align: left;
-        padding: 8px;
-        padding: 1rem;
-}
+        padding: 0.9rem;
+        border-bottom: 1px solid #dddddd;
+        animation: rotateZ 500ms ease-in-out forwards;
+
+
+    }
+    
 
 
 
 th {
-    background: var(--primary);
-    color: var(--secondary);
+    
+   
     font-size: 1.2rem;
     font-weight: 400;
+
 }
 
 tr {
     transition: all 0.3s ease;
-    &:hover{
+
+    :last-child{
+        border-bottom: 1px solid transparent;
+    }
+
+
+    &:hover {
         background: var(--primary);
         color: white;
-        transition: all 0.3s ease;
     }
 }
+
 
 
 `

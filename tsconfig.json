@@ -23,7 +23,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "src/components/Home/Products/Carousel/index.jsx", "src/components/Home/Feed/index.jsx", "src/components/Home/Pricing/TabPricing/index.jsx"  ],
+, "src/components/Home/Products/Carousel/index.jsx", "src/components/Home/Feed/index.jsx", "src/components/Home/Pricing/Berloques/index.jsx"  ],
   "exclude": [
     "node_modules"
   ]

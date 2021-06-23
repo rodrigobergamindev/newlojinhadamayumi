@@ -7,7 +7,7 @@ interface TablePricingProps {
 
 
 
-export function TableBerloques(props: TablePricingProps) {
+export function Table(props: TablePricingProps) {
    
 
     return (
@@ -21,12 +21,12 @@ export function TableBerloques(props: TablePricingProps) {
               <tr>
                 <td>Banhado a Prata</td>
                 <td>Berloque</td>
-                <td className="price">R$ 9,50</td>
+                <td className="price">R$ 09,50</td>
               </tr>
               <tr>
                 <td>Banhado a Prata</td>
                 <td>Separador</td>
-                <td className="price">R$ 9,50</td>
+                <td className="price">R$ 09,50</td>
               </tr>
               <tr>
                 <td>Banhado a Prata</td>
@@ -41,12 +41,12 @@ export function TableBerloques(props: TablePricingProps) {
               <tr>
                 <td>Envernizado</td>
                 <td>Berloque</td>
-                <td className="price">R$ 9,00</td>
+                <td className="price">R$ 09,00</td>
               </tr>
               <tr>
                 <td>Níquel</td>
                 <td>Berloque</td>
-                <td className="price">R$ 9,00</td>
+                <td className="price">R$ 09,00</td>
               </tr>
 
               <tr>

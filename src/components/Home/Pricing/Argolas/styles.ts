@@ -36,12 +36,7 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
 
-`
-
-export const ContainerTab = styled.div`
-
-   display: flex;
-   flex-direction: column;
 
 
 `
+
