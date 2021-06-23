@@ -1,6 +1,9 @@
-import {Container} from './styles'
-
-
+import {Container, ContainerAsks} from './styles'
+import {TabGarantia} from './Asks/Garantia/index'
+import {TabComposicao} from './Asks/Composicao/index'
+import {TabCompatibilidade} from './Asks/Compatibilidade/index'
+import {TabDurabilidade} from './Asks/Durabilidade/index'
+import {TabTroca} from './Asks/Troca/index'
 
 export function Faq() {
 
@@ -9,24 +12,23 @@ export function Faq() {
     return (
         <Container>
 
-            <div className="catalogContainer">
+                <div className="title">
 
-                <div className="description">
-                    <h2>Está com alguma <strong>dúvida</strong> ?</h2>
-                    <span>Selecionamos algumas dúvidas mais frequentes, acesse nosso FAQ</span>
-                </div>
-
-                <div className="containerAsks">
-
-                <button>Garantia</button>
-                <button>Composição das Peças</button>
-                <button>São compatíveis com a pulseira Vivara ou Pandora ?</button>
-                <button>Pode molhar?</button>
-                <button>Vocês efetuam troca?</button>
+                <h2>Está com alguma dúvida?</h2>
 
                 </div>
-                
-            </div>
+            
+    
+
+            <ContainerAsks>
+
+            
+                <TabGarantia/>
+                <TabComposicao/>
+                <TabCompatibilidade/>
+                <TabDurabilidade/>
+                <TabTroca/>
+            </ContainerAsks>
         </Container>
     )
 }
