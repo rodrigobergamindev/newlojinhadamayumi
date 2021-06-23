@@ -4,9 +4,11 @@ import styled from 'styled-components';
 export const Tab = styled.div`
 
    
-    background-color: var(--primary);
-    border-radius:4px;
-    color: white;
+    
+    border-radius:5px;
+    border-bottom: ${props => props.active ? "1px solid #FF3838" : "1px solid #ccc"};
+    color: ${props => props.active ? "#FF3838" : "#333"};
+    transition: all 0.5s ease;
     padding: 1rem;
 
     display: flex;
@@ -40,3 +42,15 @@ export const Container = styled.div`
 
 `
 
+export const ContainerTable = styled.div`
+
+    height: ${props => props.active ? "250px" : "0px"};
+    display: flex;
+    flex-direction: column;
+    transition: height 1s;
+    margin-bottom: ${props => props.active ? "2rem" : "auto"};
+    overflow-y: scroll;
+    
+
+
+`

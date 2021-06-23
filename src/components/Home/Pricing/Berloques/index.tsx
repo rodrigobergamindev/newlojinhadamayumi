@@ -1,6 +1,6 @@
 
 import {useState} from 'react'
-import {Tab, Container} from './styles'
+import {Tab, Container, ContainerTable} from './styles'
 import {Table} from './table'
 
 
@@ -17,10 +17,14 @@ export function TabBerloques() {
 
     <Tab active={active} onClick={()=> {setActive(!active)}} >
       <span>BERLOQUES</span>
-      <img src="/img/icons/arrowWhite.png" alt=""/>
+      <img src="/img/icons/arrowRed.png" alt=""/>
     </Tab>
+        <ContainerTable active={active}>
+          <Table active={active}/>
+        </ContainerTable>
+       
 
-      <Table active={active}/>
+      
 
     </Container>
   

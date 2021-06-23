@@ -17,6 +17,7 @@ export const GlobalStyle = createGlobalStyle `
     }
     body {
         -webkit-font-smoothing: antialiased;
+        
     }
     html {
         

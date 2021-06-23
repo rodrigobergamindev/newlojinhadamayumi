@@ -19,7 +19,7 @@ export function Table(props: TablePricingProps) {
               </tr>
               <tbody>
               <tr>
-                <td>Envernizado</td>
+                <td>Envernizada</td>
                 <td>Trava Clip Strass</td>
                 <td className="price">R$ 16,00</td>
               </tr>

@@ -7,7 +7,6 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
- 
 
     .containerTables{
         
@@ -24,6 +23,10 @@ width: 100%;
 margin-top: 3rem;
 margin-bottom: 3rem;
 border-radius: 4px;
+border: 1px solid transparent;
+transition: 0.3s ease-in-out;
+cursor: pointer;
+
 
 
 
@@ -95,57 +98,32 @@ export const TablePricing = styled.table`
     margin-top: 1rem;
     border-collapse: collapse;
     width: 100%;
-    margin-bottom: 2rem;
 
-    @keyframes rotateZ {
-  0% {
-    opacity: 0;
-    transform: translateZ(290px);
-  }
-  
-  80% {
-    transform: translateZ(10px);
-  }
 
-  100% {
-    opacity: 1;
-    transform: translateZ(0);
-  }
-}
-    
-    
 
     td, th {
+        
         text-align: left;
         padding: 0.9rem;
         border-bottom: 1px solid #dddddd;
-        animation: rotateZ 500ms ease-in-out forwards;
-
-
+        cursor: pointer;
     }
     
 
 
 
 th {
-    
-   
+   color: var(--primary);
     font-size: 1.2rem;
     font-weight: 400;
 
 }
 
 tr {
-    transition: all 0.3s ease;
-
-    :last-child{
-        border-bottom: 1px solid transparent;
-    }
-
-
+    transition: 0.3s ease-in-out;
     &:hover {
-        background: var(--primary);
-        color: white;
+        color: var(--primary);
+        transition: 0.3s ease-in-out;
     }
 }
 

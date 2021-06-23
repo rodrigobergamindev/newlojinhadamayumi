@@ -1,6 +1,6 @@
 
 import {useState} from 'react'
-import {Tab, Container} from './styles'
+import {Tab, Container, ContainerTable} from './styles'
 import {Table} from './table'
 
 
@@ -17,10 +17,12 @@ export function TabPulseiras() {
 
     <Tab active={active} onClick={()=> {setActive(!active)}} >
       <span>PULSEIRAS & BRACELETE</span>
-      <img src="/img/icons/arrowWhite.png" alt=""/>
+      <img src="/img/icons/arrowRed.png" alt=""/>
     </Tab>
 
-      <Table active={active}/>
+    <ContainerTable active={active}>
+          <Table active={active}/>
+        </ContainerTable>
 
     </Container>
   
