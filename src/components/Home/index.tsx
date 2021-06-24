@@ -7,6 +7,8 @@ import { Catalogs } from './Catalogs/index'
 import { Feed } from  './Feed/index'
 import { Pricing } from './Pricing'
 import {Faq} from './FAQ/index'
+import {Contact} from './Contact/index'
+
 
 export function Home() {
 
@@ -21,7 +23,7 @@ export function Home() {
         <About/>
         <Feed/>
         <Pricing/>
-        <Faq/>
+        <Contact/>
         </Container>
     )
 }
