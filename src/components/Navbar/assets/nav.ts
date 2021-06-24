@@ -12,8 +12,8 @@ export const menu = [
         url: '/Comprar',
     },
     {
-        title: 'Novidades',
-        url: '/Novidades',
+        title: 'Dúvidas Frequentes',
+        url: '/Dúvidas Frequentes',
     }
 
 ]

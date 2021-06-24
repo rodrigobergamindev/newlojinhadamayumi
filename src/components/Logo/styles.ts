@@ -6,14 +6,15 @@ export const Container = styled.div`
     align-items: center;
 
     img {
-        margin-right: 1rem;
+    
         width: 90px;
         height: 50px;
     }
 
     h2 {
         font-weight: 600;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+        margin-left: 0.5rem;
     }
 
 `

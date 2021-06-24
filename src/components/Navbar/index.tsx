@@ -1,19 +1,43 @@
-import {Nav} from './styles'
+import {Container, Nav, ContainerNav, DropdownMenu} from './styles'
 import {Logo} from '../Logo/index'
-import {NavItems} from './NavItems'
 import {Contato} from './Contato'
+import {Submenu} from './Submenu/Submenu'
+import {useState} from 'react'
+import {menu} from './assets/nav'
 
 export function Navbar() {
+
+  const [active, setActive] = useState(false);
+
   return (
     
-    <Nav>
+    <Container>
+      <Nav>
+
       
       <Logo/>
 
-      <NavItems/>
+      <ContainerNav>
+        {menu.map((item, index) => {
+          if(item.title === 'Produtos') {
+            return (
+              <DropdownMenu active={active} key={index} onClick={() => setActive(!active)}><span>{item.title}</span><img className="arrow" src="/img/icons/arrowRed.png" alt="submenu"></img>
+              </DropdownMenu>
+            )
+          }
+            return (
+                <li key={index}>{item.title}</li>
+            )
+        })}
+      </ContainerNav>
 
       <Contato/>
-    </Nav>
+      </Nav>
+      <Submenu active={active} onMouseOver={() => {
+        setActive(false)
+        console.log(active)
+      }}/>
+    </Container>
   )
 }
 

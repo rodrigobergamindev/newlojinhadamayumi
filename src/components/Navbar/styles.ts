@@ -2,16 +2,29 @@ import styled from 'styled-components';
 
 
 
-export const Nav = styled.nav`
+export const Container = styled.nav`
 
  
   display: flex;
+  width: 100%;
+  position: fixed;
+  z-index: 99999;
+  background: var(--secondary);
   justify-content: center;
   align-items: center;
-  background: transparent;
-  height: 8rem;
-
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  flex-direction: column;
 `;
+
+export const Nav = styled.nav`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  width: 100%;
+  max-width:1120px;
+
+`
 
 
 export const ContainerNav = styled.ul`
@@ -19,37 +32,38 @@ export const ContainerNav = styled.ul`
   display: flex;
   list-style: none;
   align-items: center;
-  
+  justify-content: space-around;
+  flex: 1;
+  margin-right: 1rem;
+  margin-left: 1rem;
   li {
-    margin: 0 2rem;
-    .arrow {
-      width: 10px;
-      margin-left:0.5rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    &:hover {
+      color: var(--primary);
+      transition: 0.3s ease-in-out;
     }
   }
-  margin: 0 2rem;
+  
 `
 
 
-export const ContainerSocialMedia = styled.ul`
+export const DropdownMenu = styled.li`
 
-  align-items: center;
-  display: flex;  
-  list-style: none;
-  padding: 1rem;
-  border-radius: 3px;
-
-    li {
-    margin: 0 0.50rem;
-    display: flex;
-
-    img {
-      display: block;
-      margin: 0 auto;
-      width: 30px;
+  cursor: pointer;
+    transition: 0.3s ease-in-out;
+    .arrow {
+      margin-left: 0.5rem;
+      width: 10px;
+      transform:${props => props.active ? "rotateZ(180deg)" : "rotateZ(0deg)"};
+      transition: all 0.3s ease;
     }
-  }
 
+    &:hover {
+      color: var(--primary);
+      transition: 0.3s ease-in-out;
+    }
+  
 `
 
 
