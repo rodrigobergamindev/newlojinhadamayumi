@@ -9,4 +9,8 @@ export const SliderContainer = styled.div`
     justify-content: center;
     align-items: center;
 
+    img {
+        width: 100%;
+    }
+
     `

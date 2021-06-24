@@ -21,9 +21,9 @@ export function Slider() {
     >
      
 
-    <SwiperSlide><img src="/img/slider/canal.png" alt="" /></SwiperSlide>
-    <SwiperSlide><img src="/img/slider/implante.png" alt="" /></SwiperSlide>
-    <SwiperSlide><img src="/img/slider/protese.png" alt="" /></SwiperSlide>
+    <SwiperSlide><img src="/img/slider/slider01.png" alt="" /></SwiperSlide>
+    <SwiperSlide><img src="/img/slider/slider01.png" alt="" /></SwiperSlide>
+    <SwiperSlide><img src="/img/slider/slider01.png" alt="" /></SwiperSlide>
     
     </Swiper>
     </SliderContainer>
