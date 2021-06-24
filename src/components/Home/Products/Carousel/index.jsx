@@ -20,7 +20,8 @@ export function CarouselProducts() {
       slidesPerView={2}
       pagination={{ clickable: true}}
       scrollbar={{ draggable: true }}
-      autoplay={{delay: 2000,  disableOnInteraction: false}}
+      autoplay={{delay: 1000,  disableOnInteraction: false}}
+      speed={1200}
     >
       {carouselItems.map((item, index) =>{
                 return (

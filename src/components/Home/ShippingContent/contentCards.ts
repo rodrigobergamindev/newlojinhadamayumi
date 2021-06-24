@@ -18,7 +18,7 @@ export const contentCards = [
         subtitle: 'nossa prioridade',
     },
     {   
-        icon: '/img/icons/shopee.svg',
+        icon: '/img/icons/shopee.png',
         url: 'https://shopee.com.br/lojinha_da_mayumi',
         title: 'Estamos na Shopee, visite a nossa loja por lá',
         subtitle: 'compra direta'

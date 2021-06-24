@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const Container = styled.section`
 
 
-    margin-top: 8rem;
+    margin-top: 5rem;
     width: 100%;
     max-width: 1120px;
 
@@ -18,35 +18,37 @@ export const Container = styled.section`
         display: flex;
         flex-direction: column;
         width: 200px;
-        height: 150px;
+        height: 250px;
         justify-content: space-between;
         padding: 0.75rem;
         
         border-radius: 2px;
-        border: 1px solid transparent;
 
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: all 0.5s ease-in-out(.25,.8,.25,1);
+        background: var(--primary);
+        transition: all 0.5s ease-in-out;
+
+        span {
+            color: var(--secondary);
+        }
 
         .subtitle {
             display: flex;
             justify-content: space-between;
             span {
-                font-size: 0.95rem;
+                font-size: 1.5rem;
                 font-weight: 600;
-                font-family: 'Indie Flower', cursive;
-                color: var(--primary);
+
+                color: var(--secondary);
             }
         }
         &:hover {
             cursor: pointer;
-            border: 1px solid var(--primary);
             transform: scale(1.1);
         }
 
         img {
-            height: 30px;
-            width: 30px;
+            width: 70px;
         }
 
         span {

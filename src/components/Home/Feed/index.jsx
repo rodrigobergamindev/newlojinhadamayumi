@@ -48,10 +48,8 @@ export  function Feed() {
       style={{'--swiper-navigation-color': '#ff3838','--swiper-pagination-color': '#ff3838'}}
       slidesPerView={4}
       spaceBetween={25}
-
-      pagination={{ clickable: true}}
-      scrollbar={{ draggable: true }}
-      autoplay={{delay: 2000,  disableOnInteraction: false}}
+      autoplay={{delay: 500,  disableOnInteraction: false}}
+      speed={2500}
     >
                 {
                    feed.map((post, index) => {

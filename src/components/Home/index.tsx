@@ -1,5 +1,5 @@
 import {Container} from './styles'
-import {Slider} from '../Slider/index'
+import {Slider} from './Slider/index'
 import {ShippingSection} from './ShippingContent/index'
 import { ProductsContent } from './Products'
 import { About } from './About'

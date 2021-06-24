@@ -7,10 +7,9 @@ export const Container = styled.section`
     display: grid;
     width: 100%;
     max-width: 1120px;
-    height: 40vh;
-
-    margin-top: 6rem;
-
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    align-items: center;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     gap: 2rem;
@@ -20,7 +19,7 @@ export const Container = styled.section`
         flex-direction: column;
         justify-content: space-around;
         padding: 2rem;
-
+        
         height: 40vh;
         h4 {
             color: var(--primary);

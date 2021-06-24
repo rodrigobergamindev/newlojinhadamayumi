@@ -13,9 +13,7 @@ export function ShippingSection() {
                         <img src={item.icon} alt="card" />
                         <div className="subtitle">
                             <span>{item.subtitle}</span>
-                            <img src="/img/icons/arrowCursive.png" alt="flecha" />
                         </div>
-                        
                         <span>{item.title}</span>
                     </div>
                     </a>

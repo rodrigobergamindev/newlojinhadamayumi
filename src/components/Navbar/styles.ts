@@ -7,16 +7,17 @@ export const Container = styled.nav`
  
   display: flex;
   width: 100%;
-  position: fixed;
-  z-index: 99999;
   background: var(--secondary);
   justify-content: center;
   align-items: center;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   flex-direction: column;
+  position: fixed;
+  z-index: 99999;
 `;
 
 export const Nav = styled.nav`
+
   display: flex;
   justify-content: space-between;
   align-items: center;
