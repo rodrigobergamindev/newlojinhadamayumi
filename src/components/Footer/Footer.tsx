@@ -27,8 +27,8 @@ export function Footer() {
 
                 <h4>CONTATOS</h4>
                <ul>
-                   <li><img src="" alt="" /> <span>atendimento@lojinhadamayumi.com</span></li>
-                   <li><img src="" alt="" /> <span>(11) 2963-9226</span></li>
+                   <li><img src="/img/icons/mail.png" alt="" /> <span>atendimento@lojinhadamayumi.com</span></li>
+                   <li><img src="/img/icons/whatsfooter.png" alt="whatsapp" /> <span>(11) 2963-9226</span></li>
                </ul>
             </div>
 

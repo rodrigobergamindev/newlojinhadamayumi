@@ -36,6 +36,12 @@ export const StyledFooter = styled.footer`
 
                 li {
                     margin-top: 0.5rem;
+                    display: flex;
+                    align-items: center;
+                    img {
+                        margin-right: 0.3rem;
+                        max-width:20px;
+                    }
                 }
             }
         }
