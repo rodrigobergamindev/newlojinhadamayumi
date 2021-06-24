@@ -82,6 +82,18 @@ export function Contact() {
                             </div>
 
                         </li>
+
+                        <li>
+                        <div className="shopee">
+                                <img src="/img/socialMedia/shopee.png" alt="" />
+
+                                <div className="subtitle">
+                                <p>@lojinha_da_mayumi</p>
+                                <p>Shopee</p>
+                                </div>
+
+                            </div>
+                        </li>
                     </ul>
                 </div>
            

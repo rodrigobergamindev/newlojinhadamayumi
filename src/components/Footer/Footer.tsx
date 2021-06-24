@@ -18,6 +18,7 @@ export function Footer() {
 
                 </div>
                 <div className="description">
+                    <h4>FUNCIONAMENTO</h4>
                     <p>São Paulo - SP</p>
                     <p>Segunda à Sábado - 09:00 às 17:00</p>
                     </div>
@@ -31,6 +32,7 @@ export function Footer() {
                    <li><img src="/img/icons/whatsfooter.png" alt="whatsapp" /> <span>(11) 2963-9226</span></li>
                </ul>
             </div>
+
 
             <div className="mapa">
 

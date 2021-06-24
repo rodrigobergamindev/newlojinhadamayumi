@@ -78,8 +78,13 @@ export const StyledFooter = styled.footer`
 
 
         .description {
+            margin-top: 1rem;
             padding: 1rem;
             font-weight: 400;
+
+            h4 {
+                margin-bottom: 0.5rem;
+            }
             p {
                 line-height: 1.5rem;
             }

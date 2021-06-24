@@ -43,7 +43,6 @@ export const Container = styled.div`
             list-style: none;
             width: 100%;
             justify-content: space-between;
-            gap: 1rem;
 
             li {
                 
@@ -206,6 +205,41 @@ export const Container = styled.div`
                     justify-content: space-between;
 
                     background: #0088cc;
+                    
+                    img {
+                        max-width: 35px;
+                    }
+                    .subtitle {
+                        p {
+                        color: var(--secondary);
+                        font-size:0.6rem;
+                        font-weight: 600;
+                        line-height: 1.1rem;
+                    }
+                    }
+
+                    
+                }
+
+                &:hover{
+                        border: 1px solid var(--secondary);
+                        transition: all 0.5s ease-in-out;
+                    }
+
+
+                    .shopee{
+                    border-radius: 3px;
+                    width: 150px;
+                    height: 120px;
+                    
+                    outline: none;
+                    padding: 1rem;
+
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    background: #dc703d;
                     
                     img {
                         max-width: 35px;
