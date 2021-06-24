@@ -11,7 +11,7 @@ export function Contact() {
 
             <div className="header">
                 <div className="title">
-                    <h2>Encontre-nos nas redes sociais</h2>
+                    <h2>Siga-nos nas <strong>redes sociais</strong></h2>
                 </div>
 
                 

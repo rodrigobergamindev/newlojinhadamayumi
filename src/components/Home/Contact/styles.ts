@@ -12,20 +12,23 @@ export const Container = styled.div`
     .header {
         width:100%;
         max-width: 1120px;
-        border: 1px solid black;
-
+       
 
         display: flex;
         flex-direction: column;
         align-items:center;
         .title {
-            
-            padding: 2rem;
+            background-color: var(--primary);
+            padding: 1rem;
             width:100%;
-            border: 1px solid red;
+            margin-bottom: 2rem;
+            border-radius: 5px;
             h2 {
                 font-weight: 400;
-                color:#ccc;
+                strong {
+                    font-weight: 600;
+                }
+                color:var(--secondary);
                 font-size: 2.2rem;
             }
         }
@@ -33,14 +36,13 @@ export const Container = styled.div`
 
      
         ul {
-            border: 1px solid blue;
+          
             margin-bottom: 2rem;
-         
-            display: grid;
-            grid-template-columns: repeat(5, 1fr);
+            
+            display: flex;
             list-style: none;
             width: 100%;
-            justify-content: center;
+            justify-content: space-between;
             gap: 1rem;
 
             li {
@@ -51,6 +53,7 @@ export const Container = styled.div`
 
                 
                 .instagram{
+                    border-radius: 3px;
                     width: 150px;
                     height: 120px;
                     
@@ -80,13 +83,14 @@ export const Container = styled.div`
                 }
 
                 &:hover{
-                        border: 1px solid var(--secondary);
+                        opacity: 0.8;
                         transition: all 0.5s ease-in-out;
                     }
 
 
                 
                     .tiktok{
+                    border-radius: 3px;
                     width: 150px;
                     height: 120px;
                     
@@ -121,6 +125,7 @@ export const Container = styled.div`
 
 
                     .facebook{
+                    border-radius: 3px;
                     width: 150px;
                     height: 120px;
                     
@@ -154,6 +159,7 @@ export const Container = styled.div`
                     }
 
                     .whatsapp{
+                    border-radius: 3px;
                     width: 150px;
                     height: 120px;
                     
@@ -188,6 +194,7 @@ export const Container = styled.div`
 
 
                     .telegram{
+                    border-radius: 3px;
                     width: 150px;
                     height: 120px;
                     

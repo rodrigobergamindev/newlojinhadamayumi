@@ -14,7 +14,7 @@ export function Faq() {
 
                 <div className="title">
 
-                <h2>Está com alguma dúvida?</h2>
+                <h2>Dúvidas Frequentes</h2>
 
                 </div>
             

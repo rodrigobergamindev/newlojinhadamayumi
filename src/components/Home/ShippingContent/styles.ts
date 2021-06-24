@@ -26,7 +26,7 @@ export const Container = styled.section`
         border: 1px solid transparent;
 
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+        transition: all 0.5s ease-in-out(.25,.8,.25,1);
 
         .subtitle {
             display: flex;

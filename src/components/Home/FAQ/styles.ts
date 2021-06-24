@@ -8,21 +8,19 @@ export const Container = styled.div`
         align-items: center;
         display: flex;
         justify-content:center;
-
         .title {
+            padding: 1rem;
             max-width: 1120px;
             width: 100%;
-            padding: 1rem;
             h2 {
-                
+                font-size: 2.1rem;
                 color: var(--primary);
-                font-size: 3.5rem;
             }
         }
+        margin-bottom: 4rem;
 `
 
 export const ContainerAsks = styled.div`
-    margin-top: 2rem;
     width: 100%;
     max-width:1120px;
     margin-bottom: 2rem;

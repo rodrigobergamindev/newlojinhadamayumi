@@ -16,7 +16,11 @@ export const Container = styled.div`
 
 
         .title {
-
+            color: white;
+            background-image: url('/img/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 width: 100%;
 
@@ -52,6 +56,12 @@ gap: 2rem;
             strong {
                 font-weight: 600;
                 color: var(--primary);
+                background-color: var(--secondary);
+                padding-left: 0.7rem;
+                padding-right: 0.7rem;
+                font-family: 'Indie Flower', cursive;
+                font-size: 2.5rem;
+                border-radius: 5px;
             }
             margin-bottom: 1rem;
         }
