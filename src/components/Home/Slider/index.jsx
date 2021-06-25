@@ -9,7 +9,7 @@ export function Slider() {
     return (
         <SliderContainer>
         <Swiper
-          style={{'--swiper-navigation-color': '#ff3838','--swiper-pagination-color': '#ff3838', height:470, zIndex:0}}
+          style={{'--swiper-navigation-color': '#ff3838','--swiper-pagination-color': '#ff3838', zIndex:0}}
           spaceBetween={0}
           slidesPerView={1}
           pagination={{ clickable: true}}
@@ -19,9 +19,9 @@ export function Slider() {
           >
      
 
-    <SwiperSlide><img src="/img/slider/slider01.png" alt="" /></SwiperSlide>
-    <SwiperSlide><img src="/img/slider/slider01.png" alt="" /></SwiperSlide>
-    <SwiperSlide><img src="/img/slider/slider01.png" alt="" /></SwiperSlide>
+    <SwiperSlide style={{width:'100%', maxWidth:'1920px'}}><img src="/img/slider/slider01.png"/></SwiperSlide>
+    <SwiperSlide style={{width:'100%', maxWidth:'1920px'}}><img src="/img/slider/slider02.png"/></SwiperSlide>
+    <SwiperSlide style={{width:'100%', maxWidth:'1920px'}}><img src="/img/slider/slider01.png"/></SwiperSlide>
     
     </Swiper>
     </SliderContainer>
