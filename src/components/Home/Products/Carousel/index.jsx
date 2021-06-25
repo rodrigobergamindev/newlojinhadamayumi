@@ -1,5 +1,5 @@
 import {carouselItems} from './carouselItems'
-import {CarouselContainer} from './styles'
+import {CarouselContainer, CardProduct} from './styles'
 
 import SwiperCore, { A11y, Autoplay, Navigation, Pagination, Scrollbar } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -18,7 +18,6 @@ export function CarouselProducts() {
       style={{'--swiper-navigation-color': '#ff3838','--swiper-pagination-color': '#ff3838'}}
       spaceBetween={30}
       slidesPerView={2}
-      pagination={{ clickable: true}}
       scrollbar={{ draggable: true }}
       autoplay={{delay: 1000,  disableOnInteraction: false}}
       speed={1200}
@@ -26,7 +25,25 @@ export function CarouselProducts() {
       {carouselItems.map((item, index) =>{
                 return (
 
-                        <SwiperSlide key={index} style={{width:'300px'}}><img src={item.img} alt="" /></SwiperSlide>
+                        <SwiperSlide key={index} style={{width:'300px'}}>
+                          <a href={item.url} target="_blank">
+                          <CardProduct>
+                            <div className="fakeBackground">
+                              <img src={item.img} alt="" />
+                            <div className="title">
+
+                            <h3>
+                              {item.title.toUpperCase()}
+                            </h3>
+                            <span>Saiba mais</span>
+
+                            </div>
+                        
+                            </div>
+                            
+                          </CardProduct>
+                          </a>
+                          </SwiperSlide>
                  
                 )
       })}

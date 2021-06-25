@@ -2,7 +2,7 @@ export const carouselItems = [
     {   
         url: 'https://drive.google.com/file/d/1QKb-r1gr5LtEoo6gKlOvQMJYcfnh5DsE/view?usp=sharing',
         title: 'Berloques Envernizados',
-        img: '/img/carousel/envernizados.jpeg'
+        img: '/img/carousel/envernizados2.jpg'
     },
     {   
         url: 'https://drive.google.com/file/d/1XMg53_Twv8rH-qqRjALxj3W88rWSYp0E/view?usp=sharing',
@@ -11,7 +11,7 @@ export const carouselItems = [
     },
     {   
         url: 'https://drive.google.com/file/d/1vIuZH3gY3hxDmuId_QgwLm3Y2NYB2ZnE/view?usp=sharing',
-        title: 'Berloques em Níquel',
+        title: 'Berloques Níquel Free',
         img: '/img/carousel/niquel.jpeg'
     },
     {   
@@ -22,7 +22,7 @@ export const carouselItems = [
     {   
         url: 'https://drive.google.com/file/d/1WEDmwG9UwfQn3B5OJb8X6gKewbQ08W-v/view?usp=sharing',
         title: 'Muranos',
-        img: '/img/carousel/muranos.jpeg'
+        img: '/img/carousel/muranos.png'
     },
     {   
         url: 'https://drive.google.com/file/d/14Qts8zYV_0S_lbeXEzH02PD1iXfdXQZm/view?usp=sharing',
