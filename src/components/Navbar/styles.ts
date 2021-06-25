@@ -81,6 +81,7 @@ export const ButtonContato = styled.button`
     justify-content:center;
     padding: 1rem;
     border-radius: 2px;
+    transition: 0.3s ease-in-out;
 
     img {
       width: 20px;
@@ -93,6 +94,10 @@ export const ButtonContato = styled.button`
       color: var(--secondary);
     }
 
+    &:hover{
+      transition: 0.4s ease-in-out;
+      opacity: 0.9;
+    }
 
 
 `

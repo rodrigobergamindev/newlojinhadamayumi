@@ -45,7 +45,7 @@ export  function Feed() {
 
       <StyledFeed>
       <Swiper
-      style={{'--swiper-navigation-color': '#ff3838','--swiper-pagination-color': '#ff3838'}}
+      style={{'--swiper-navigation-color': '#ff3838','--swiper-pagination-color': '#ff3838', zIndex: 0}}
       slidesPerView={4}
       spaceBetween={25}
       autoplay={{delay: 500,  disableOnInteraction: false}}

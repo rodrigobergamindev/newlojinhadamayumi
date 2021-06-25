@@ -5,12 +5,15 @@ export const SliderContainer = styled.div`
     margin-top: 7.3rem;
     display: flex;
     width: 100%;
-    height: 50vh;
+    max-width: 1120px;
     justify-content: center;
     align-items: center;
 
-    img {
-        width: 100%;
-    }
+    .slide {
+        background-image: url('/img/slider/slider01.png');
+        background-size:contain;
+        background-repeat: no-repeat;
 
+        height: 100%;
+    }
     `
