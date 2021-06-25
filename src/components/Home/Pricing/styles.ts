@@ -140,3 +140,71 @@ tr {
 
 
 `
+
+
+
+export const HeaderModal = styled.div`
+    
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+ 
+   
+    h2{
+        color: #333;
+        font-weight: 400;
+        border-bottom: 1px solid red;
+        padding: 1rem;
+        
+        strong {
+            font-weight: 600;
+            color: var(--primary);
+        }
+        margin-right: 3rem;
+        font-size: 2.5rem;
+        
+    }
+    img {
+        cursor:pointer;
+        align-self: flex-start;
+        top:5px;
+        right: 5px;
+        position:absolute;
+        padding: 0.4rem;
+        background-color: var(--primary);
+        max-width: 40px;
+        max-height: 40px;
+
+        transition: filter 0.2s;
+        
+        &:hover {
+            filter: brightness(0.8);
+        }
+    }
+
+`
+
+export const BodyModal = styled.div`
+    padding-left: 2rem;
+    ul {
+        list-style: none;
+
+        a{
+            font-size: 1.3rem;
+            line-height: 2.9rem;
+            transition: 0.2s ease-in-out;
+            cursor: pointer;
+            
+            &:hover {
+                color: var(--primary);
+            }
+        }
+    }
+
+`
+
+export const ContainerModal = styled.div`
+    
+    display: flex;
+    flex-direction: column;
+`

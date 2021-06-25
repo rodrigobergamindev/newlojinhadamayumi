@@ -15,7 +15,7 @@ export function CarouselProducts() {
           <CarouselContainer>
 
     <Swiper
-      style={{'--swiper-navigation-color': '#ff3838','--swiper-pagination-color': '#ff3838'}}
+      style={{'--swiper-navigation-color': '#ff3838','--swiper-pagination-color': '#ff3838', zIndex: 0}}
       spaceBetween={30}
       slidesPerView={2}
       scrollbar={{ draggable: true }}
@@ -33,7 +33,7 @@ export function CarouselProducts() {
                             <div className="title">
 
                             <h3>
-                              {item.title.toUpperCase()}
+                              {item.title}
                             </h3>
                             <span>Saiba mais</span>
 

@@ -7,11 +7,11 @@ export const carouselItems = [
     {   
         url: 'https://drive.google.com/file/d/1XMg53_Twv8rH-qqRjALxj3W88rWSYp0E/view?usp=sharing',
         title: 'Berloques Banhados',
-        img: '/img/carousel/banhado.jpeg'
+        img: '/img/carousel/banhado.jpg'
     },
     {   
         url: 'https://drive.google.com/file/d/1vIuZH3gY3hxDmuId_QgwLm3Y2NYB2ZnE/view?usp=sharing',
-        title: 'Berloques Níquel Free',
+        title: 'Berloques em Níquel Free',
         img: '/img/carousel/niquel.jpeg'
     },
     {   
