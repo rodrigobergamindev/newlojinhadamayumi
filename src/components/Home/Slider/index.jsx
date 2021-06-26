@@ -19,9 +19,9 @@ export function Slider() {
           >
      
 
-    <SwiperSlide style={{width:'100%', maxWidth:'1920px'}}><img src="/img/slider/slider01.png"/></SwiperSlide>
     <SwiperSlide style={{width:'100%', maxWidth:'1920px'}}><img src="/img/slider/slider02.png"/></SwiperSlide>
     <SwiperSlide style={{width:'100%', maxWidth:'1920px'}}><img src="/img/slider/slider01.png"/></SwiperSlide>
+    <SwiperSlide style={{width:'100%', maxWidth:'1920px'}}><img src="/img/slider/slider02.png"/></SwiperSlide>
     
     </Swiper>
     </SliderContainer>

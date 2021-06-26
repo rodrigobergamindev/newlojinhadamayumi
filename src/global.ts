@@ -4,6 +4,40 @@ import {createGlobalStyle} from 'styled-components';
 export const GlobalStyle = createGlobalStyle `
 
 
+@-webkit-keyframes bounceInDown {
+            0% {
+               opacity: 0;
+               -webkit-transform: translateY(-2000px);
+            }
+            60% {
+               opacity: 1;
+               -webkit-transform: translateY(30px);
+            }
+            80% {
+               -webkit-transform: translateY(-10px);
+            }
+            100% { 
+               -webkit-transform: translateY(0);
+            }
+         }
+         
+         @keyframes bounceInDown {
+            0% {
+               opacity: 0;
+               transform: translateY(-2000px);
+            }
+            60% {
+               opacity: 1;
+               transform: translateY(30px);
+            }
+            80% {
+               transform: translateY(-10px);
+            }
+            100% {
+               transform: translateY(0);
+            }
+         }
+
     :root {
         --primary: #ff3838;
         --secondary: #F0F2F5;
@@ -21,6 +55,10 @@ export const GlobalStyle = createGlobalStyle `
         
     }
     html {
+        -webkit-animation: bounceInDown 3s ease-in-out;
+        -moz-animation: bounceInDown 3s ease-in-out;
+        -o-animation: bounceInDown 3s ease-in-out;
+        animation: bounceInDown 3s ease-in-out;
         
         @media(max-width:1080px) {
             font-size: 93.75%;

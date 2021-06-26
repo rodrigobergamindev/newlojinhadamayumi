@@ -106,8 +106,8 @@ export const ButtonContato = styled.button`
     }
 
     &:hover{
-      transition: 0.4s ease-in-out;
-      opacity: 0.9;
+      transition: 0.3s ease-in-out;
+      transform: scale(1.09);
     }
 
 
