@@ -41,17 +41,30 @@ justify-items: center;
 align-items: center;
 gap: 2rem;
 
+    @media only screen and (max-width: 900px) {
+            grid-template-columns: repeat(1, 1fr);
+            padding: 2rem;
+            box-shadow: none;
+            margin-bottom: auto;
+        }
+
 .description {
         display: flex;
         flex-direction: column;
         padding: 2rem;
 
-        
+        @media only screen and (max-width: 900px) {
+            padding: 1rem;
+        }
        
 
         h2 {
             font-weight: 400;
             font-size: 2.2rem;
+
+            @media only screen and (max-width: 900px) {
+            font-size: 2rem;
+        }
             
             strong {
                 font-weight: 600;

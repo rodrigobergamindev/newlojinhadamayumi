@@ -52,7 +52,10 @@ export const ContainerTable = styled.div`
     overflow-y: hidden;
     
 
-
+    @media only screen and (max-width: 900px) {
+        height: ${props => props.active ? "100px" : "0px"};
+       
+        }
 `
 
 

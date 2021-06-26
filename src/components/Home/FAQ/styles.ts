@@ -15,6 +15,10 @@ export const Container = styled.div`
             h2 {
                 font-size: 2.1rem;
                 color: var(--primary);
+
+                @media only screen and (max-width: 900px) {
+                    font-size: 1.5rem;
+        }
             }
         }
         margin-bottom: 4rem;

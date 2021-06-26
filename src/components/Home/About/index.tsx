@@ -44,7 +44,7 @@ export function About() {
                 </div>
             </div>
 
-            <img src="/img/about.jpeg" alt="avatar" />
+            <img src="/img/about.jpeg" className="avatar" alt="avatar" />
             </div>  
 
         </Container>

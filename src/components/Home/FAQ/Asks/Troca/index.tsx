@@ -16,7 +16,7 @@ export function TabTroca() {
     <Container>
 
     <Tab active={active} onClick={()=> {setActive(!active)}} >
-      <span>Vocês oferecem garantia?</span>
+      <span>Vocês efetuam troca?</span>
       <img src="/img/icons/arrowRed.png" alt=""/>
     </Tab>
 

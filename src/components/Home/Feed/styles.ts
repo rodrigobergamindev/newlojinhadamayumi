@@ -15,6 +15,14 @@ export const CardPost = styled.div`
     overflow: hidden;
     transition: all 0.5s ease;
     display: flex;
+
+    @media only screen and (max-width: 900px) {
+            height:auto;
+            max-width: 300px;
+            width:100%;
+            max-height:300px;
+            
+        }
     
     .post {
         object-fit: cover;
@@ -22,6 +30,11 @@ export const CardPost = styled.div`
         height: 100%;
         transition: all 0.5s ease;
         filter: ${props => props.postActive ? "brightness(75%)" : "none"};
+
+        @media only screen and (max-width: 900px) {
+            height: auto;
+           
+        }
        
         &:hover { 
             transform: ${props => props.postActive ? "scale(1.2)" : "none"}
@@ -75,6 +88,12 @@ export const DisplaySocialMedia = styled.div`
         align-items: center;
         gap: 2rem;
 
+        @media only screen and (max-width: 900px) {
+            grid-template-columns: repeat(1, 1fr);
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+
 
 
         .description {
@@ -88,6 +107,10 @@ export const DisplaySocialMedia = styled.div`
                 h2 {
                     font-weight: 400;
                     font-size: 2.2rem;
+
+                    @media only screen and (max-width: 900px) {
+                        font-size: 2rem;
+                }
                     
                     strong {
                         font-weight: 600;

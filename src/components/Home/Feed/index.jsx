@@ -50,6 +50,24 @@ export  function Feed() {
       spaceBetween={25}
       autoplay={{delay: 500,  disableOnInteraction: false}}
       speed={2500}
+      className="react-carousel"
+    >
+                {
+                   feed.map((post, index) => {
+                            return (
+                                <SwiperSlide key={index}><Post key={post.id} post={post}/></SwiperSlide>
+                               )
+                   }) 
+                }
+    </Swiper>
+
+    <Swiper
+      style={{'--swiper-navigation-color': '#ff3838','--swiper-pagination-color': '#ff3838', zIndex: 0,padding:"1"}}
+      slidesPerView={1}
+      spaceBetween={30}
+      autoplay={{delay: 500,  disableOnInteraction: false}}
+      speed={2500}
+      className="mobile"
     >
                 {
                    feed.map((post, index) => {

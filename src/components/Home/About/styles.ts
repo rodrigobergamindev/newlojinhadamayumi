@@ -11,8 +11,13 @@ export const Container = styled.div`
 
 
     background-color: var(--primary);
-    background-image: -webkit-linear-gradient( -28deg, var(--primary) 0%, var(--primary) 60%, white 60%, white 60%);
-    background-image: linear-gradient( -65deg, var(--primary) 0%, var(--primary) 40%, white 40%, white 40%);
+    background-image: -webkit-linear-gradient( -28deg, var(--primary) 0%, var(--primary) 60%, var(--secondary) 60%, var(--secondary) 60%);
+    background-image: linear-gradient( -65deg, var(--primary) 0%, var(--primary) 40%, var(--secondary) 40%, var(--secondary) 40%);
+
+    @media only screen and (max-width: 900px) {
+             height:auto;
+            background: var(--secondary);
+        }
     
 
     .about {
@@ -26,10 +31,21 @@ export const Container = styled.div`
         align-items: center;
         gap: 2rem;
 
+        @media only screen and (max-width: 900px) {
+             grid-template-columns: repeat(1, 1fr);
+        }
+
         img {
             max-width: 500px;
             max-height: 100%;
             border-radius: 4px;
+
+        }
+
+        .avatar {
+            @media only screen and (max-width: 900px) {
+                display: none;
+            }
         }
 
         .description {

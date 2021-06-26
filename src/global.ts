@@ -79,6 +79,15 @@ export const GlobalStyle = createGlobalStyle `
         align-items: center;
         justify-content:center;
         z-index: 999999;
+
+
+        @media only screen and (max-width: 900px) {
+             align-items: center;
+             justify-content:flex-start;
+           
+        }
+
+
     }
 
     .react-modal-content {
@@ -89,6 +98,7 @@ export const GlobalStyle = createGlobalStyle `
         border-radius: 0.24rem;
         padding: 3rem;
         z-index: 999999;
+
     }
 
 

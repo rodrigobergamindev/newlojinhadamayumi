@@ -71,7 +71,6 @@ export const ContainerModal = styled.div`
 export const Container = styled.div`
 
         width: 100%;
-
         height: 40vh;
         display: flex;
         justify-content:center;
@@ -91,6 +90,13 @@ export const Container = styled.div`
             justify-items: center;
             align-items: center;
             gap: 10rem;
+
+            @media only screen and (max-width: 900px) {
+                
+                grid-template-columns: repeat(1, 1fr);
+                gap: 3rem;
+                padding: 2rem;
+            }
 
 
             .description {
@@ -130,7 +136,17 @@ export const Container = styled.div`
                 transition: 0.3s ease-in-out;
                 filter: brightness(110%);
             }
+        }
 
+        
         }
-        }
+
+
+        @media only screen and (max-width: 900px) {
+                
+                height:auto;
+            }
+
+
+       
 `

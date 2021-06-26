@@ -44,6 +44,12 @@ export const Container = styled.div`
             width: 100%;
             justify-content: space-between;
 
+            @media only screen and (max-width: 900px) {
+                flex-wrap:wrap;
+                
+       
+            }
+
             li {
                 
                 border: 1px solid transparent;
@@ -76,6 +82,11 @@ export const Container = styled.div`
                         font-weight: 600;
                         line-height: 1.1rem;
                     }
+                    }
+
+                    @media only screen and (max-width: 900px) {
+                        margin-bottom: 1rem;
+                
                     }
 
                     
@@ -218,6 +229,10 @@ export const Container = styled.div`
                     }
                     }
 
+                    @media only screen and (max-width: 900px) {
+                        margin-bottom: 1rem;
+                
+                    }
                     
                 }
 
