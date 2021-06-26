@@ -8,6 +8,16 @@ export const CarouselContainer = styled.div`
     max-width: 620px;
     justify-content: center;
     align-items: center;
+    
+
+
+    @media only screen and (max-width: 900px) {
+            height: auto;
+            padding: 1rem;
+            width: 300px;
+            justify-self: center;
+            grid-area:item2;
+        }
    
     `
 

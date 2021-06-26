@@ -14,6 +14,16 @@ export const Container = styled.nav`
   flex-direction: column;
   position: fixed;
   z-index: 99999;
+
+
+  @media only screen and (max-width: 900px) {
+
+    display: none;
+
+}
+
+
+
 `;
 
 export const Nav = styled.nav`
@@ -24,6 +34,7 @@ export const Nav = styled.nav`
   padding: 2rem;
   width: 100%;
   max-width:1120px;
+
 
 `
 
