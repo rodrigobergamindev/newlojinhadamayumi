@@ -20,6 +20,11 @@ export const StyledFooter = styled.footer`
         padding-bottom: 3rem;
         margin-bottom: 2rem;
 
+        @media only screen and (max-width: 900px) {
+                flex-direction: column;
+       
+            }
+
         .mapa{
             ul {
                 list-style: none;
@@ -31,6 +36,11 @@ export const StyledFooter = styled.footer`
         }
 
         .contatos{
+            @media only screen and (max-width: 900px) {
+                    margin-bottom: 2rem;
+                
+       
+            }
             ul {
                 list-style: none;
 
@@ -57,6 +67,13 @@ export const StyledFooter = styled.footer`
             align-items: center;
             cursor: pointer;
 
+
+            @media only screen and (max-width: 900px) {
+                    margin-bottom: 2rem;
+                
+       
+            }
+
             .titleLogo {
                 display: flex;
                 flex-direction: column;
@@ -68,6 +85,12 @@ export const StyledFooter = styled.footer`
   
             img {
                 max-width:90px;
+
+                @media only screen and (max-width: 900px) {
+                    max-width:50px;
+                
+       
+            }
             }
 
             h2 {
@@ -82,6 +105,12 @@ export const StyledFooter = styled.footer`
             padding: 1rem;
             font-weight: 400;
 
+            @media only screen and (max-width: 900px) {
+                padding:0;
+                margin-bottom: 2rem;
+                
+       
+            }
             h4 {
                 margin-bottom: 0.5rem;
             }
