@@ -11,5 +11,15 @@ export const SliderContainer = styled.div`
         width: 100%;
     }
 
+    @media only screen and (max-width: 900px) {
+        height: 50vh;
+        margin-top: 4rem;
+        img {
+            height: 50vh;
+            object-fit: cover;
+           
+        }
+    }
+
 
     `

@@ -4,7 +4,7 @@ import Head from 'next/head'
 import {GlobalStyle} from  '../global'
 import { Home } from '../components/Home'
 import {Footer} from '../components/Footer/Footer'
-
+import { NavbarMobile } from '../components/NavbarMobile'
 
 
 
@@ -16,6 +16,7 @@ export default function App() {
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             </Head>
       <Navbar/>
+      <NavbarMobile/>
       
       <Home/>
       

@@ -64,7 +64,7 @@ export  function Feed() {
     <Swiper
       style={{'--swiper-navigation-color': '#ff3838','--swiper-pagination-color': '#ff3838', zIndex: 0,padding:"1"}}
       slidesPerView={1}
-      spaceBetween={30}
+      spaceBetween={80}
       autoplay={{delay: 500,  disableOnInteraction: false}}
       speed={2500}
       className="mobile"

@@ -17,4 +17,16 @@ export const Container = styled.div`
         margin-left: 0.5rem;
     }
 
+
+    @media (max-width: 930px) { 
+        
+        h2 {
+            color: var(--secondary);
+            margin-left: auto;
+        }
+        img {
+            display: none;
+        }
+    }
+
 `

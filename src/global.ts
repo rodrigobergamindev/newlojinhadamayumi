@@ -88,6 +88,14 @@ export const GlobalStyle = createGlobalStyle `
             transition: all 0.3s ease-out;
             transform: translateY(-10%);
         }
+
+        @media only screen and (max-width: 900px) {
+  
+            width: 3rem;
+            height: 3rem;
+            bottom: 1.5rem;
+            right: 1.5rem;
+  }
     }
 
     .react-carousel {

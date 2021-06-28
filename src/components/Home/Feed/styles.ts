@@ -8,7 +8,7 @@ export const StyledFeed = styled.div`
 `
 
 export const CardPost = styled.div`
-    max-width: 250px;
+   
     height: 250px;
     display:flex;
     justify-content: center;
@@ -17,11 +17,9 @@ export const CardPost = styled.div`
     display: flex;
 
     @media only screen and (max-width: 900px) {
-            height:auto;
-            max-width: 300px;
-            width:100%;
-            max-height:300px;
-            
+            max-width: 100%;
+            height: auto;
+            align-self: center;
         }
     
     .post {
@@ -149,6 +147,10 @@ export const DisplaySocialMedia = styled.div`
                 transition: 0.3s ease-in-out;
                 filter: brightness(95%);
             }
+
+            @media only screen and (max-width: 900px) {
+                    margin-bottom: 2rem;
+                }
 
         }
     }
