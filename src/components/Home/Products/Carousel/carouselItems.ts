@@ -1,7 +1,7 @@
 export const carouselItems = [
     {   
         url: 'https://drive.google.com/file/d/1QKb-r1gr5LtEoo6gKlOvQMJYcfnh5DsE/view?usp=sharing',
-        title: 'Berloques Envernizados',
+        title: 'Berloques Folheados',
         img: '/img/carousel/envernizados2.jpg'
     },
     {   

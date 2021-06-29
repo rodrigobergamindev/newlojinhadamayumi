@@ -26,7 +26,7 @@ export function Pricing() {
 
 
     return (
-        <Container>
+        <Container id="Comprar">
 
             <div className="containerTables">
 

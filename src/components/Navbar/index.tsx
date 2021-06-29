@@ -28,7 +28,7 @@ export function Navbar() {
             )
           }
             return (
-                <li key={index}>{item.title}</li>
+                <li key={index}><a href={item.url}>{item.title}</a></li>
             )
         })}
       </ContainerNav>
@@ -41,24 +41,29 @@ export function Navbar() {
 
       
       <ContainerSubMenu>
+      <a href="https://drive.google.com/file/d/1QKb-r1gr5LtEoo6gKlOvQMJYcfnh5DsE/view?usp=sharing" target="_blank">
         <h4>BERLOQUES</h4>
       <ul>
         <li>Banhados a Prata</li>
         <li>Envernizados</li>
         <li>Níquel Free</li>
       </ul>
+      </a>
       </ContainerSubMenu>
-
+      
       <ContainerSubMenu>
+      <a href="https://drive.google.com/file/d/1Au_1vcOvM_DSm686KKpyBsvuuAg93qyY/view?usp=sharing" target="_blank">
         <h4>PULSEIRAS</h4>
       <ul>
         <li>Banhadas a Prata</li>
         <li>Envernizadas</li>
         <li>Braceletes</li>
       </ul>
+      </a>
       </ContainerSubMenu>
 
       <ContainerSubMenu>
+      <a href="https://drive.google.com/file/d/1Au_1vcOvM_DSm686KKpyBsvuuAg93qyY/view?usp=sharing" target="_blank">
         <h4>TRAVAS</h4>
       <ul>
         <li>Clip Strass</li>
@@ -71,33 +76,38 @@ export function Navbar() {
         <li>Corrente Envernizada</li>
         <li>Silicone</li>
       </ul>
+      </a>
       </ContainerSubMenu>
 
       <ContainerSubMenu>
+      <a href="https://drive.google.com/file/d/1WEDmwG9UwfQn3B5OJb8X6gKewbQ08W-v/view?usp=sharing" target="_blank">
         <h4>MURANOS</h4>
       <ul>
         <li>Murano</li>
 
       </ul>
+      </a>
       </ContainerSubMenu>
 
       <ContainerSubMenu>
         <h4>OUTROS</h4>
       <ul>
         <li>Colar com Pingente</li>
-        <li>Colar Tiffany</li>
-        <li>Pulseira Tiffany</li>
+        <li><a href="https://drive.google.com/file/d/1MK9tfPUxSL0F0XDcULc0Skj7zbrYeXZ9/view?usp=sharing" target="_blank">Colar Tiffany</a></li>
+        <li><a href="https://drive.google.com/file/d/1MK9tfPUxSL0F0XDcULc0Skj7zbrYeXZ9/view?usp=sharing" target="_blank">Pulseira Tiffany</a></li>
 
       </ul>
       </ContainerSubMenu>
 
       <ContainerSubMenu>
+        <a href="https://drive.google.com/file/d/14Qts8zYV_0S_lbeXEzH02PD1iXfdXQZm/view?usp=sharing" target="_blank">
         <h4>ARGOLAS</h4>
       <ul>
         <li>Folheadas</li>
         <li>Cravejadas</li>
-
+       
       </ul>
+      </a>
       </ContainerSubMenu>
       </SubContainer>
 

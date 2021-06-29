@@ -1,13 +1,14 @@
 
-
-import SwiperCore, { A11y, Autoplay, Navigation, Pagination, Scrollbar } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import {SliderContainer} from './styles'
+import {SliderContainerDesktop,SliderContainerMobile, Container} from './styles'
 
 export function Slider() {
 
     return (
-        <SliderContainer>
+        <Container>
+
+        
+        <SliderContainerDesktop>
         <Swiper
           style={{'--swiper-navigation-color': '#ff3838','--swiper-pagination-color': '#ff3838', zIndex:0}}
           spaceBetween={0}
@@ -19,11 +20,36 @@ export function Slider() {
           >
      
 
-    <SwiperSlide style={{height: '100%'}}><img src="/img/slider/slider02.png"/></SwiperSlide>
+    <SwiperSlide style={{height: '100%'}}><img src="/img/slider/slider01.png"/></SwiperSlide>
     <SwiperSlide style={{height: '100%'}}><img src="/img/slider/slider01.png"/></SwiperSlide>
     <SwiperSlide style={{height: '100%'}}><img src="/img/slider/slider02.png"/></SwiperSlide>
     
     </Swiper>
-    </SliderContainer>
+    </SliderContainerDesktop>
+
+
+    <SliderContainerMobile>
+        <Swiper
+          style={{'--swiper-navigation-color': '#ff3838','--swiper-pagination-color': '#ff3838', zIndex:0}}
+          spaceBetween={0}
+          slidesPerView={1}
+          pagination={{ clickable: true}}
+          scrollbar={{ draggable: true }}
+          autoplay={{delay: 4000,  disableOnInteraction: false}}
+          speed={2000}
+          >
+     
+
+    <SwiperSlide style={{height: '100%'}}><img src="/img/slider/mobileslider01.png"/></SwiperSlide>
+    <SwiperSlide style={{height: '100%'}}><img src="/img/slider/mobileslider02.png"/></SwiperSlide>
+    <SwiperSlide style={{height: '100%'}}><img src="/img/slider/mobileslider03.png"/></SwiperSlide>
+    
+    </Swiper>
+    </SliderContainerMobile>
+
+
+
+
+    </Container>
     )
 }

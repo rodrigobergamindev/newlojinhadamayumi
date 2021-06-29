@@ -30,7 +30,12 @@ export const StyledFooter = styled.footer`
                 list-style: none;
 
                 li {
+                    transition: all 0.3s ease-in-out;
                     margin-top: 0.5rem;
+                }
+
+                &:hover {
+                    color: var(--primary);
                 }
             }
         }
@@ -48,6 +53,7 @@ export const StyledFooter = styled.footer`
                     margin-top: 0.5rem;
                     display: flex;
                     align-items: center;
+                
                     img {
                         margin-right: 0.3rem;
                         max-width:20px;

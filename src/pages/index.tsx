@@ -5,10 +5,13 @@ import {GlobalStyle} from  '../global'
 import { Home } from '../components/Home'
 import {Footer} from '../components/Footer/Footer'
 import { NavbarMobile } from '../components/NavbarMobile'
-
+import {useState} from 'react'
 
 
 export default function App() {
+
+
+
   return (
     <>
       <Head>

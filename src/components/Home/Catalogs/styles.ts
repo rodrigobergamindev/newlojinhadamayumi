@@ -13,6 +13,10 @@ export const HeaderModal = styled.div`
         font-weight: 400;
         border-bottom: 1px solid red;
         padding: 1rem;
+
+        @media only screen and (max-width: 900px) {
+            font-weight: 1.5rem;
+        }
         
         strong {
             font-weight: 600;

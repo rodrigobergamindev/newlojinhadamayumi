@@ -8,7 +8,7 @@ export function ProductsContent() {
    
 
     return (
-        <Container>
+        <Container id="produtos">
             
             <CarouselProducts/>
             

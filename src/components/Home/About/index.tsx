@@ -7,7 +7,7 @@ export function About() {
 
 
     return (
-        <Container>
+        <Container id="sobre">
 
             <div className="about">
             

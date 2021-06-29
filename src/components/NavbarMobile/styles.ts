@@ -11,6 +11,15 @@ export const Container = styled.div`
 
   justify-content: space-between;
   padding: 1rem;
+
+
+
+  @media (min-width: 931px) { 
+
+    display: none;
+
+  }
+
 `
 
 

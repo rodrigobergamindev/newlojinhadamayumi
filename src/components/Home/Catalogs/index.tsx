@@ -17,6 +17,7 @@ export function Catalogs() {
       }
 
     return (
+       
         <Container>
 
             <div className="catalogContainer">
@@ -58,6 +59,7 @@ export function Catalogs() {
        
       </Modal>
         </Container>
+        
     )
 }
 

@@ -53,6 +53,7 @@ export const GlobalStyle = createGlobalStyle `
         -webkit-font-smoothing: antialiased;
         background: var(--secondary);
         
+        
     }
     html {
         -webkit-animation: bounceInDown 3s ease-in-out;
@@ -146,6 +147,7 @@ export const GlobalStyle = createGlobalStyle `
         z-index: 999999;
 
     }
+
 
 
 

@@ -4,9 +4,11 @@ import {useState} from 'react'
 import {MobileNavItems} from './MobileNav/index'
 
 
+
+
 export function NavbarMobile() {
 
-    const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(false)
 
   return (
     

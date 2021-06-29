@@ -10,7 +10,7 @@ export function Faq() {
 
 
     return (
-        <Container>
+        <Container id="faq">
 
                 <div className="title">
 

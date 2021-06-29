@@ -38,11 +38,11 @@ export function Footer() {
 
                 <h4>MAPA DO SITE</h4>
                <ul>
-                   <li>Sobre</li>
-                   <li>Produtos</li>
-                   <li>Comprar</li>
-                   <li>Dúvidas Frequentes</li>
-                   <li>Contatos</li>
+                   <li><a href="#sobre">Sobre</a></li>
+                   <li><a href="#produtos">Produtos</a></li>
+                   <li><a href="#Comprar">Comprar</a></li>
+                   <li><a href="#faq">Dúvidas Frequentes</a></li>
+                   <li><a href="#contatos">Contatos</a></li>
                </ul>
             </div>
 

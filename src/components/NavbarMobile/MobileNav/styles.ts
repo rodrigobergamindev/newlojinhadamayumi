@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const Ul = styled.ul`
   display:none;
 
-  @media (max-width: 930px) {
+  @media (max-width: 931px) {
     list-style: none;
     display: flex;
     z-index:999999;
@@ -16,18 +16,34 @@ export const Ul = styled.ul`
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(150%)'};
     top: 56px;
     right:0;
-    width: 50%;
+    width: 250px;
     height: 100vh;
     transition: transform 0.3s ease-in-out;
-    
+    box-shadow:${({ open }) => open ? '0 4px 8px 0 rgba(0,0,0,0.55);' : '0'};
     
     li {
-        padding: 1rem;
+        padding: 2rem;
         text-align:left;
+       
+
+        span {
+      
+          margin-left: 0.5rem;
+        }
+        img {
+      
+          max-width: 20px;
+        }
       a {
+        display: flex;
+        align-items: center;
         font-size: 1rem;
         font-weight: 600;
       }
+    }
+
+    li:first-child{
+      margin-top: 1rem;
     }
 
 

@@ -15,7 +15,7 @@ export function MobileNavItems(props: MobileNavProps) {
     {menu.map((item, index) => {
                  return (
                      <li key={index}><a href={item.url}>
-                         {item.title}
+                         <img src={item.img} alt="" /><span>{item.title}</span>
                          </a>
                          </li>
                  )
