@@ -20,9 +20,10 @@ export function Slider() {
           >
      
 
-    <SwiperSlide style={{height: '100%'}}><img src="/img/slider/slider01.png"/></SwiperSlide>
-    <SwiperSlide style={{height: '100%'}}><img src="/img/slider/slider01.png"/></SwiperSlide>
     <SwiperSlide style={{height: '100%'}}><img src="/img/slider/slider02.png"/></SwiperSlide>
+    <SwiperSlide style={{height: '100%'}}><a href="https://t.me/joinchat/KeCpRayleIc5MGMx" target="_blank"><img src="/img/slider/slider03.png"/></a></SwiperSlide>
+    <SwiperSlide style={{height: '100%'}}><img src="/img/slider/slider01.png"/></SwiperSlide>
+    
     
     </Swiper>
     </SliderContainerDesktop>
@@ -42,7 +43,7 @@ export function Slider() {
 
     <SwiperSlide style={{height: '100%'}}><img src="/img/slider/mobileslider01.png"/></SwiperSlide>
     <SwiperSlide style={{height: '100%'}}><img src="/img/slider/mobileslider02.png"/></SwiperSlide>
-    <SwiperSlide style={{height: '100%'}}><img src="/img/slider/mobileslider03.png"/></SwiperSlide>
+    <SwiperSlide style={{height: '100%'}}><a href="https://t.me/joinchat/KeCpRayleIc5MGMx" target="_blank"><img src="/img/slider/mobileslider03.png"/></a></SwiperSlide>
     
     </Swiper>
     </SliderContainerMobile>

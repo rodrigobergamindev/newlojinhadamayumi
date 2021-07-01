@@ -92,7 +92,7 @@ export function Navbar() {
       <ContainerSubMenu>
         <h4>OUTROS</h4>
       <ul>
-        <li>Colar com Pingente</li>
+        <li><a href="https://drive.google.com/file/d/1o31OlEgUmgH5Nzh1MEB4F7wfLxNvaKP9/view?usp=sharing" target="_blank">Colar com Pingente</a></li>
         <li><a href="https://drive.google.com/file/d/1MK9tfPUxSL0F0XDcULc0Skj7zbrYeXZ9/view?usp=sharing" target="_blank">Colar Tiffany</a></li>
         <li><a href="https://drive.google.com/file/d/1MK9tfPUxSL0F0XDcULc0Skj7zbrYeXZ9/view?usp=sharing" target="_blank">Pulseira Tiffany</a></li>
 

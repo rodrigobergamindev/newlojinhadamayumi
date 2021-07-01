@@ -4,6 +4,7 @@ import {TabComposicao} from './Asks/Composicao/index'
 import {TabCompatibilidade} from './Asks/Compatibilidade/index'
 import {TabDurabilidade} from './Asks/Durabilidade/index'
 import {TabTroca} from './Asks/Troca/index'
+import { TabPagamento } from './Asks/Pagamento'
 
 export function Faq() {
 
@@ -28,6 +29,7 @@ export function Faq() {
                 <TabCompatibilidade/>
                 <TabDurabilidade/>
                 <TabTroca/>
+                <TabPagamento/>
             </ContainerAsks>
         </Container>
     )

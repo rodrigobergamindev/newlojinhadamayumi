@@ -79,9 +79,9 @@ export const Container = styled.div`
         display: flex;
         justify-content:center;
 
-        background-image: url("/img/backgroundTest.jpg");
+        background-image: url("/img/backgroundTest.png");
         background-attachment: fixed;
-        background-position: center;
+        background-position: bottom;
         background-repeat: no-repeat;
         background-size: cover;
 

@@ -15,7 +15,7 @@ export function NavbarMobile() {
    
       <Container>
         <Logo/>
-      <StyledBurger open={open} onClick={() => setOpen(!open)}>
+      <StyledBurger open={open} onClick={() => setOpen(!open)} onMouseLeave={() => setOpen(false)}>
         <div />
         <div />
         <div />

@@ -19,7 +19,6 @@ export const Ul = styled.ul`
     width: 250px;
     height: 100vh;
     transition: transform 0.3s ease-in-out;
-    box-shadow:${({ open }) => open ? '0 4px 8px 0 rgba(0,0,0,0.55);' : '0'};
     
     li {
         padding: 2rem;

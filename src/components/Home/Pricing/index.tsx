@@ -9,6 +9,7 @@ import { TabArgolas } from './Argolas/index'
 import Modal from 'react-modal';
 import {useState} from 'react'
 import {carouselItems} from '../Products/Carousel/carouselItems'
+import { TabAtacadoIndividual } from './AtacadoInvidual'
 
 
 export function Pricing() {
@@ -47,6 +48,7 @@ export function Pricing() {
                 <TabColares/>
                 <TabTiffany/>
                 <TabArgolas/>
+                <TabAtacadoIndividual/>
 
                 <Modal
                 isOpen={modalIsOpen}
