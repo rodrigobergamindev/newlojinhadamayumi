@@ -32,11 +32,12 @@ export const StyledFooter = styled.footer`
                 li {
                     transition: all 0.3s ease-in-out;
                     margin-top: 0.5rem;
-                }
 
-                &:hover {
+                    &:hover {
                     color: var(--primary);
                 }
+                }
+
             }
         }
 
