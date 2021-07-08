@@ -10,7 +10,6 @@ import {Faq} from './FAQ/index'
 import {Contact} from './Contact/index'
 import {Footer} from '../Footer/Footer'
 
-import { BrowserRouter } from 'react-router-dom';
 
 export function Home() {
 
