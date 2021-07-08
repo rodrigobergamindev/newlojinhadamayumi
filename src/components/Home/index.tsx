@@ -24,7 +24,6 @@ export function Home() {
         <ProductsContent/>
         <Catalogs/>
         <About/>
-        <Feed/>
         <Pricing/>
         <Faq/>
         <Contact/>  
