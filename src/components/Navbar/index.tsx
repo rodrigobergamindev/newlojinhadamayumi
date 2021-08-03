@@ -41,14 +41,14 @@ export function Navbar() {
 
       
       <ContainerSubMenu>
-      <a href="https://drive.google.com/file/d/1QKb-r1gr5LtEoo6gKlOvQMJYcfnh5DsE/view?usp=sharing" target="_blank">
+      
         <h4>BERLOQUES</h4>
       <ul>
-        <li>Banhados a Prata</li>
-        <li>Envernizados</li>
-        <li>Níquel Free</li>
+        <li><a href="https://drive.google.com/file/d/1fyYecXABtwR_NrSoKLhcZwBB76fMq2tb/view?usp=sharing" target="_blank">Banhados a Prata</a></li>
+        <li><a href="https://drive.google.com/file/d/1QKb-r1gr5LtEoo6gKlOvQMJYcfnh5DsE/view?usp=sharing" target="_blank">Envernizados</a></li>
+        <li><a href="https://drive.google.com/file/d/1HANsGWMUOQQCsMXuxJKpEQkL5kgWutZz/view?usp=sharing" target="_blank">Níquel Free</a></li>
       </ul>
-      </a>
+      
       </ContainerSubMenu>
       
       <ContainerSubMenu>
