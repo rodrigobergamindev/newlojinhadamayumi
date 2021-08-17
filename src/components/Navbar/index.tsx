@@ -44,9 +44,9 @@ export function Navbar() {
       
         <h4>BERLOQUES</h4>
       <ul>
-        <li><a href="https://drive.google.com/file/d/1fyYecXABtwR_NrSoKLhcZwBB76fMq2tb/view?usp=sharing" target="_blank">Banhados a Prata</a></li>
-        <li><a href="https://drive.google.com/file/d/1QKb-r1gr5LtEoo6gKlOvQMJYcfnh5DsE/view?usp=sharing" target="_blank">Envernizados</a></li>
-        <li><a href="https://drive.google.com/file/d/1HANsGWMUOQQCsMXuxJKpEQkL5kgWutZz/view?usp=sharing" target="_blank">Níquel Free</a></li>
+        <li><a href="https://drive.google.com/file/d/1pHZwoHLbDR6YSiz-Ysjl_WEZn5lxzAHa/view?usp=sharing" target="_blank">Banhados a Prata</a></li>
+        <li><a href="https://drive.google.com/file/d/1hC5SKjVXnaO2kPHDbfAlM5qEfoFtwIzx/view?usp=sharing" target="_blank">Folheados</a></li>
+        <li><a href="https://drive.google.com/file/d/11w3wvm8LTTHzFalvULpu5pIc6BC1HP4C/view?usp=sharing" target="_blank">Níquel Free</a></li>
       </ul>
       
       </ContainerSubMenu>
@@ -80,7 +80,7 @@ export function Navbar() {
       </ContainerSubMenu>
 
       <ContainerSubMenu>
-      <a href="https://drive.google.com/file/d/1WEDmwG9UwfQn3B5OJb8X6gKewbQ08W-v/view?usp=sharing" target="_blank">
+      <a href="https://drive.google.com/file/d/1nOVvjpiTadkdvyIVTMEMWg0UFcNwjlQp/view?usp=sharing" target="_blank">
         <h4>MURANOS</h4>
       <ul>
         <li>Murano</li>

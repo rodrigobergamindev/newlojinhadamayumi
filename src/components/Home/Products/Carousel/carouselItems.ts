@@ -1,16 +1,16 @@
 export const carouselItems = [
     {   
-        url: 'https://drive.google.com/file/d/1QKb-r1gr5LtEoo6gKlOvQMJYcfnh5DsE/view?usp=sharing',
+        url: 'https://drive.google.com/file/d/1hC5SKjVXnaO2kPHDbfAlM5qEfoFtwIzx/view?usp=sharing',
         title: 'Berloques Folheados',
         img: '/img/carousel/envernizados2.jpg'
     },
     {   
-        url: 'https://drive.google.com/file/d/1fyYecXABtwR_NrSoKLhcZwBB76fMq2tb/view?usp=sharing',
+        url: 'https://drive.google.com/file/d/1pHZwoHLbDR6YSiz-Ysjl_WEZn5lxzAHa/view?usp=sharing',
         title: 'Berloques Banhados',
         img: '/img/carousel/banhado.jpg'
     },
     {   
-        url: 'https://drive.google.com/file/d/1HANsGWMUOQQCsMXuxJKpEQkL5kgWutZz/view?usp=sharing',
+        url: 'https://drive.google.com/file/d/11w3wvm8LTTHzFalvULpu5pIc6BC1HP4C/view?usp=sharing',
         title: 'Berloques em Níquel Free',
         img: '/img/carousel/niquel.jpeg'
     },
@@ -20,7 +20,7 @@ export const carouselItems = [
         img: '/img/carousel/pulseiras.jpeg'
     },
     {   
-        url: 'https://drive.google.com/file/d/1WEDmwG9UwfQn3B5OJb8X6gKewbQ08W-v/view?usp=sharing',
+        url: 'https://drive.google.com/file/d/1nOVvjpiTadkdvyIVTMEMWg0UFcNwjlQp/view?usp=sharing',
         title: 'Muranos',
         img: '/img/carousel/muranos.png'
     },
