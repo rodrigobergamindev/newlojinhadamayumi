@@ -9,7 +9,8 @@ export const StyledFeed = styled.div`
 
 export const CardPost = styled.div`
    
-    height: 250px;
+    max-height: 250px;
+    max-width: 250px;
     display:flex;
     justify-content: center;
     overflow: hidden;
