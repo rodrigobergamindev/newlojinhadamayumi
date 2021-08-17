@@ -19,7 +19,7 @@ export const CardPost = styled.div`
 
     @media only screen and (max-width: 900px) {
             max-width: 100%;
-            height: auto;
+            max-height: 350px;
             align-self: center;
         }
     
@@ -30,10 +30,7 @@ export const CardPost = styled.div`
         transition: all 0.5s ease;
         filter: ${props => props.postActive ? "brightness(75%)" : "none"};
 
-        @media only screen and (max-width: 900px) {
-            height: auto;
-           
-        }
+       
        
         &:hover { 
             transform: ${props => props.postActive ? "scale(1.2)" : "none"}
