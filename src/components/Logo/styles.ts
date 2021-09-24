@@ -5,6 +5,10 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
 
+    @media only screen and (max-width: 900px) {
+            display: none;
+      }
+
     img {
     
         width: 90px;
