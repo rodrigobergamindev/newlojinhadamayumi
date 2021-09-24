@@ -30,7 +30,7 @@ export const Container = styled.section`
         height: 40vh;
         h4 {
             color: var(--primary);
-            font-size: 1.3rem;
+            font-size: 2rem;
         }
 
         h2 {

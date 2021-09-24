@@ -12,6 +12,11 @@ export const Container = styled.div`
     place-content: center;
 
     margin-bottom: 4rem;
+
+    @media only screen and (max-width: 900px) {
+
+        grid-template-columns: repeat(1, 1fr);
+     }
 `
 
 

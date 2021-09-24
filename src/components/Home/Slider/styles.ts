@@ -1,23 +1,50 @@
 import styled from 'styled-components'
 
-
-export const SliderContainerDesktop = styled.div`
-    width: 100%;
-    
-    `
-
-
 export const Container = styled.div`
 
 width: 100%;
-max-width:1920px;
 height: 100vh;
 
+    background-attachment: fixed;
+    background: url('/img/backgroundHeader.jpeg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
 
-@media only screen and (max-width: 900px) {
-        margin-top: 0
-           
-        }
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+
+h1{
+    color: var(--secondary);
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+
+button {
+    padding: 1rem;
+    outline: 0;
+    border:0;
+    background-color: var(--primary);
+    color: var(--secondary);
+    border-radius: 2px;
+
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        filter: brightness(90%);
+    }
+    
+}
+
+
+
 
 
 

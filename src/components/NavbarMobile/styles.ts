@@ -11,7 +11,6 @@ export const Container = styled.div`
   padding: 1rem;
   
 
-
 `
 
 
@@ -26,7 +25,7 @@ export const StyledBurger = styled.div`
   
   div {
     width: 2rem;
-    height: 0.15rem;
+    height: 0.30rem;
     background-color: var(--primary);
     border-radius: 20px;
     transform-origin: 1px;
