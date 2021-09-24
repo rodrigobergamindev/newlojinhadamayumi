@@ -1,5 +1,5 @@
 import {createGlobalStyle} from 'styled-components';
-
+import styled from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle `
 
@@ -80,8 +80,8 @@ export const GlobalStyle = createGlobalStyle `
         width: 5rem;
         height: 5rem;
         filter: brightness(110%);
-        background-color: var(--secondary);
-        box-shadow: 0 5px 10px rgba(0,0,0,0.19), 0 2px 2px rgba(0,0,0,0.23);
+        
+        
         border-radius: 50%;
         transition: all 0.3s ease-out;
         cursor: pointer;
@@ -151,4 +151,18 @@ export const GlobalStyle = createGlobalStyle `
 
 
 
+`
+
+export const DisplayPDF = styled.div`
+
+   
+
+    height: 100vh;
+    width: 100%;
+
+    embed {
+        width: 100%;
+        height: 100%;
+    }
+    
 `

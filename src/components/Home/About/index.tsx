@@ -25,7 +25,7 @@ export function About() {
                     
                         <div className="itemDetail">
                             <img src="/img/icons/deal.png" alt="icon" />
-                            <h4>1.000<strong>+</strong></h4>
+                            <h4>10.000<strong>+</strong></h4>
                             <span>Peças vendidas</span>
                         </div>
 

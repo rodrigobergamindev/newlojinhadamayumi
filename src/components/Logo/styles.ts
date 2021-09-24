@@ -9,6 +9,11 @@ export const Container = styled.div`
     
         width: 90px;
         height: 50px;
+
+        @media only screen and (max-width: 900px) {
+            width: 40px;
+            height: auto;
+      }
     }
 
     h2 {
@@ -17,16 +22,5 @@ export const Container = styled.div`
         margin-left: 0.5rem;
     }
 
-
-    @media (max-width: 930px) { 
-        
-        h2 {
-            color: var(--secondary);
-            margin-left: auto;
-        }
-        img {
-            display: none;
-        }
-    }
 
 `

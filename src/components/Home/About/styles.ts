@@ -11,8 +11,8 @@ export const Container = styled.div`
 
 
     background-color: var(--primary);
-    background-image: -webkit-linear-gradient( -28deg, var(--primary) 0%, var(--primary) 60%, var(--secondary) 60%, var(--secondary) 60%);
-    background-image: linear-gradient( -65deg, var(--primary) 0%, var(--primary) 40%, var(--secondary) 40%, var(--secondary) 40%);
+    background-image: -webkit-linear-gradient( -28deg, var(--primary) 0%, var(--primary) 55%, var(--secondary) 55%, var(--secondary) 55%);
+    background-image: linear-gradient( -90deg, var(--primary) 0%, var(--primary) 35%, var(--secondary) 35%, var(--secondary) 35%);
 
     @media only screen and (max-width: 900px) {
              height:auto;
