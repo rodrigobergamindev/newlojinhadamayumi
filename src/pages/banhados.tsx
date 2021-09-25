@@ -17,7 +17,7 @@ export default function Banhados() {
 
 
       <DisplayPDF>
-          <embed src="/archives/banhados.pdf" type="application/pdf"/>
+          <object data="/archives/banhados.pdf" type="application/pdf"/>
       </DisplayPDF>
     </>
   )

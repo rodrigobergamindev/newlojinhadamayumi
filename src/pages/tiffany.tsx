@@ -17,7 +17,7 @@ export default function Tiffany() {
 
 
       <DisplayPDF>
-          <embed src="/archives/tiffany.pdf" type="application/pdf"/>
+          <object data="/archives/tiffany.pdf" type="application/pdf"/>
       </DisplayPDF>
     </>
   )

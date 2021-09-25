@@ -17,7 +17,7 @@ export default function Muranos() {
 
 
       <DisplayPDF>
-          <embed src="/archives/muranos.pdf" type="application/pdf"/>
+          <object data="/archives/muranos.pdf" type="application/pdf"/>
       </DisplayPDF>
     </>
   )

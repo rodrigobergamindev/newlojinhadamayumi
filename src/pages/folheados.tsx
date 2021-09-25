@@ -17,7 +17,7 @@ export default function Folheados() {
 
 
       <DisplayPDF>
-          <embed src="/archives/folheados.pdf" type="application/pdf"/>
+          <object data="/archives/folheados.pdf" type="application/pdf"/>
       </DisplayPDF>
     </>
   )
