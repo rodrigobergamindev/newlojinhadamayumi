@@ -160,7 +160,7 @@ export const DisplayPDF = styled.div`
     height: 100vh;
     width: 100%;
 
-    embed {
+    object {
         width: 100%;
         height: 100%;
     }
