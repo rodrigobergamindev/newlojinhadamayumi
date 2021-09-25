@@ -17,7 +17,7 @@ export default function Argolas() {
 
 
       <DisplayPDF>
-          <object data="/archives/argolas.pdf" type="application/pdf"/>
+          <iframe src="/archives/argolas.pdf"/>
       </DisplayPDF>
     </>
   )

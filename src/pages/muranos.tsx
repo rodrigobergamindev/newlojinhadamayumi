@@ -17,7 +17,7 @@ export default function Muranos() {
 
 
       <DisplayPDF>
-          <object data="/archives/muranos.pdf" type="application/pdf"/>
+          <iframe src="/archives/muranos.pdf" />
       </DisplayPDF>
     </>
   )

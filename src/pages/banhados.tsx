@@ -17,7 +17,7 @@ export default function Banhados() {
 
 
       <DisplayPDF>
-          <object data="/archives/banhados.pdf" type="application/pdf"/>
+          <iframe src="/archives/banhados.pdf"/>
       </DisplayPDF>
     </>
   )

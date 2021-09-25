@@ -17,7 +17,7 @@ export default function Folheados() {
 
 
       <DisplayPDF>
-          <object data="/archives/folheados.pdf" type="application/pdf"/>
+          <iframe src="/archives/folheados.pdf"/>
       </DisplayPDF>
     </>
   )

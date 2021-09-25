@@ -17,7 +17,7 @@ export default function Colares() {
 
 
       <DisplayPDF>
-          <object data="/archives/colares.pdf" type="application/pdf"/>
+          <iframe src="/archives/colares.pdf"/>
       </DisplayPDF>
     </>
   )

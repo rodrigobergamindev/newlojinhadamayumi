@@ -17,7 +17,7 @@ export default function Pulseiras() {
 
 
       <DisplayPDF>
-          <object data="/archives/pulseirasetravas.pdf" type="application/pdf"/>
+          <iframe src="/archives/pulseirasetravas.pdf"/>
       </DisplayPDF>
     </>
   )

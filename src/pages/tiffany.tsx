@@ -17,7 +17,7 @@ export default function Tiffany() {
 
 
       <DisplayPDF>
-          <object data="/archives/tiffany.pdf" type="application/pdf"/>
+          <iframe src="/archives/tiffany.pdf"/>
       </DisplayPDF>
     </>
   )
