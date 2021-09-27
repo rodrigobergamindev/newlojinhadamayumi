@@ -17,7 +17,7 @@ export function DisplayCat() {
                if(item.title !== "Argolas") {
                 return (
                     
-                    <Card item={item} postActive={postActive} onMouseOver={() => setPostActive(true)} onMouseLeave={() => setPostActive(false)}/>
+                    <Card key={item.title} item={item} postActive={postActive} onMouseOver={() => setPostActive(true)} onMouseLeave={() => setPostActive(false)}/>
                
                    )
                }

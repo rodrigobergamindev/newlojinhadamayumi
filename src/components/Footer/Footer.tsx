@@ -1,4 +1,5 @@
 import {StyledFooter} from './styles'
+import {Link} from 'react-scroll'
 
 export function Footer() {
     return (
@@ -38,11 +39,53 @@ export function Footer() {
 
                 <h4>MAPA DO SITE</h4>
                <ul>
-                   <li><a href="#sobre">Sobre</a></li>
-                   <li><a href="#produtos">Produtos</a></li>
-                   <li><a href="#Comprar">Comprar</a></li>
-                   <li><a href="#faq">Dúvidas Frequentes</a></li>
-                   <li><a href="#contatos">Contatos</a></li>
+                   <li>
+                   <Link
+                activeClass="active"
+                to="sobre"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={1000}
+                    >Sobre</Link>
+                   </li>
+                   <li><Link
+                activeClass="active"
+                to="produtos"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={1000}
+                    >Produtos</Link></li>
+
+                   <li><Link
+                activeClass="active"
+                to="comprar"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={1000}
+                    >Comprar</Link></li>
+                   <li>
+                   <Link
+                activeClass="active"
+                to="faq"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={1000}
+                    >Dúvidas Frequentes</Link>
+                   </li>
+                   <li>
+                   <Link
+                activeClass="active"
+                to="contato"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={1000}
+                    >Contatos</Link>
+                   </li>
                </ul>
             </div>
 

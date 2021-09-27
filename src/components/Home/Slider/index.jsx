@@ -1,7 +1,7 @@
 
 import {Container} from './styles'
 import Typical from "react-typical";
-
+import { Link} from 'react-scroll';
 
 export function Slider() {
 
@@ -15,7 +15,14 @@ export function Slider() {
                     wrapper="h1"
                     />
       <h2>Eternizamos sua história através dos nossos berloques</h2>
-          <button>Deslize para baixo</button>
+        <button><Link
+                activeClass="active"
+        to="produtos"
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={1000}
+        >Deslize para baixo</Link></button>
         </Container>
     )
 }
