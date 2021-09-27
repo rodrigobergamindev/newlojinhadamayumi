@@ -69,7 +69,7 @@ export function Pricing() {
         <ul>
             {carouselItems.map((item,index) => {
                 return (
-                    <li key={index}><a href={item.url} target="_blank">{item.title}</a></li>
+                    <li key={index}><a href={item.url} download>{item.title}</a></li>
                 )
             })}
         </ul>

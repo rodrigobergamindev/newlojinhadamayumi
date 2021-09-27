@@ -23,7 +23,15 @@ h1{
     letter-spacing: 2px;
     font-weight: 300;
     font-size: 3rem;
-    margin-bottom: 3rem;
+ 
+    text-align: center;
+}
+
+
+h2 {
+    color: var(--secondary);
+    font-weight: 500;
+    font-size: 1.2rem;
     text-align: center;
 }
 
@@ -35,7 +43,7 @@ button {
     background-color: var(--primary);
     color: var(--secondary);
     border-radius: 2px;
-
+    margin-top: 4rem;
     transition: all 0.3s ease-in-out;
     &:hover {
         filter: brightness(90%);

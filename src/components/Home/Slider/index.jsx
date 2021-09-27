@@ -5,7 +5,7 @@ import Typical from "react-typical";
 
 export function Slider() {
 
-    const frase = 'Berloques em forma de amor'
+    const frase = 'Bem-vinda(o) a Lojinha da Mayumi'
 
     return (
         <Container>
@@ -14,8 +14,8 @@ export function Slider() {
                     loop={Infinity}
                     wrapper="h1"
                     />
-
-          <button>Acesse o site</button>
+      <h2>Eternizamos sua história através dos nossos berloques</h2>
+          <button>Deslize para baixo</button>
         </Container>
     )
 }
