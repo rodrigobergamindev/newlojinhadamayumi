@@ -84,7 +84,7 @@ export function Footer() {
                 smooth={true}
                 offset={-70}
                 duration={1000}
-                    >Contatos</Link>
+                    >Contatos </Link>
                    </li>
                </ul>
             </div>
