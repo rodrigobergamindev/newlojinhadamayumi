@@ -85,17 +85,21 @@ export const Nav = styled.nav`
       span {
         font-size: 3rem;
         font-weight: 600;
-        cursor: pointer;
-        transition: all 0.4s ease-in-out;
+        
 
         @media only screen and (max-width: 900px) {
             font-size: 2rem;
       }
-        &:hover {
+      }
+
+      a {
+        cursor: pointer;
+        transition: all 0.4s ease-in-out;
+      }
+      a:hover {
           color: var(--sub);
           transform: scale(1.09);
         }
-      }
     }
 
 

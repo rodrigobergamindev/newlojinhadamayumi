@@ -4,15 +4,14 @@ import styled from 'styled-components';
 export const Container = styled.div`
 
     width: 100%;
-    
+    max-width: 1120px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-   
+    
     place-items: center;
     place-content: center;
 
-    margin-bottom: 4rem;
-
+   
     @media only screen and (max-width: 900px) {
 
         grid-template-columns: repeat(1, 1fr);
@@ -22,10 +21,12 @@ export const Container = styled.div`
 
 export const CardCatalog = styled.div`
 
-    width: 100%;
-    height: 35rem;
 
+     a {
 
+        width: 100%;
+        height: 35rem;
+    
     border: 2px solid #ffff;
     display:flex;
     justify-content: center;
@@ -47,11 +48,7 @@ export const CardCatalog = styled.div`
             transform: ${props => props.postActive ? "scale(1.2)" : "none"}
         }
     }
-    a{
-        display:flex;
-        align-items:center;
-        justify-content: center;
-    }
+
 
 
     .catalogDesc{
@@ -67,4 +64,22 @@ export const CardCatalog = styled.div`
             border: 1px solid var(--secondary);
         }
     }
+}
+`
+         
+export const Header = styled.h1`
+
+    color: var(--primary);
+    font-weight: 600;
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+    text-align: center;
+    border: 1px solid red;
+    padding: 1rem;
+    border-top-left-radius: 50px;
+
+    @media only screen and (max-width: 900px) {
+    border: none;
+   
+}
 `

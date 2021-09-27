@@ -38,7 +38,7 @@ export default function App() {
         <div className="menu">
           {carouselItems.map((item, index) => {
                   return (
-                      <Link key={index} href={item.url}><span>{item.title}</span></Link>
+                      <a key={index} href={item.url} type="application/pdf" download><span>{item.title}</span></a>
                   )
               })}
 

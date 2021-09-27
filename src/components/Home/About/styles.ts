@@ -8,7 +8,7 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
     height: 80vh;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
 
     background-color: var(--primary);
     background-image: -webkit-linear-gradient( -28deg, var(--primary) 0%, var(--primary) 55%, var(--secondary) 55%, var(--secondary) 55%);

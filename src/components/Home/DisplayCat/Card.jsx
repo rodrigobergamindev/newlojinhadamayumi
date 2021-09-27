@@ -12,12 +12,12 @@ export function Card(props) {
 
            
     <CardCatalog postActive={postActive} onMouseOver={() => setPostActive(true)} onMouseLeave={() => setPostActive(false)}>
-                            
+        <a href={props.item.url} download>              
         <img src={props.item.background} alt="" className="post"/>
         <div className="catalogDesc">
             <h2>{props.item.title.toUpperCase()}</h2>
         </div>
-        
+        </a>
     </CardCatalog>
             
     )

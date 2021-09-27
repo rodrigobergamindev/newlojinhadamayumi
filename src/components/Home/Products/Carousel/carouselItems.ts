@@ -1,42 +1,42 @@
 export const carouselItems = [
     {   
-        url: '/folheados',
+        url: '/archives/folheados.pdf',
         title: 'Berloques Folheados',
         img: '/img/carousel/envernizados2.jpg',
         background: '/img/carousel/envernizados2.jpg'
     },
     {   
-        url: '/banhados',
+        url: '/archives/banhados.pdf',
         title: 'Berloques Banhados',
         img: '/img/carousel/banhado.jpg',
         background: '/img/carousel/banhadosbackground.jpeg'
     },
     {   
-        url: '/pulseiras',
+        url: '/archives/pulseirasetravas.pdf',
         title: 'Pulseiras',
         img: '/img/carousel/pulseiras.jpeg',
         background: '/img/carousel/pulseirasbackground.jpeg'
     },
     {   
-        url: '/muranos',
+        url: '/archives/muranos.pdf',
         title: 'Muranos',
         img: '/img/carousel/muranos.png',
         background: '/img/carousel/muranos.png'
     },
     {   
-        url: '/argolas',
+        url: '/archives/argolas.pdf',
         title: 'Argolas',
         img: '/img/carousel/argolas.jpeg',
         background: ''
     },
     {   
-        url: '/tiffany',
+        url: '/archives/tiffany.pdf',
         title: 'Tiffany & Co',
         img: '/img/carousel/tiffany.jpeg',
         background: '/img/carousel/tiffanybackground.jpeg'
     },
     {   
-        url: '/colares',
+        url: '/archives/colares.pdf',
         title: 'Colares com Pingente',
         img: '/img/carousel/pingente.jpeg',
         background: 'img/carousel/colares.jpeg'

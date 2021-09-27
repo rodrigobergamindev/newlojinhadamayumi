@@ -1,7 +1,6 @@
 import {Container, StyledBurger, Nav} from './styles'
 import {Logo} from '../Logo/index'
 import {useState} from 'react'
-import Link from 'next/link'
 import { carouselItems } from '../Home/Products/Carousel/carouselItems'
 
 export function NavbarMobile() {
@@ -25,7 +24,7 @@ export function NavbarMobile() {
         <div className="menu">
           {carouselItems.map((item, index) => {
                   return (
-                      <Link key={index} href={item.url}><span>{item.title}</span></Link>
+                      <a key={index} href={item.url} download><span>{item.title}</span></a>
                   )
               })}
 

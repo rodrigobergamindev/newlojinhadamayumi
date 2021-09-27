@@ -27,7 +27,7 @@ export function CarouselProducts() {
                 return (
 
                         <SwiperSlide key={index} style={{width:'300px'}}>
-                          <a href={item.url} target="_blank">
+                          <a href={item.url} download>
                           <CardProduct>
                             <div className="fakeBackground">
                               <img src={item.img} alt="" />
@@ -64,7 +64,7 @@ export function CarouselProducts() {
                 return (
 
                         <SwiperSlide key={index} style={{width:'300px'}}>
-                          <a href={item.url} target="_blank">
+                          <a href={item.url} download>
                           <CardProduct>
                             <div className="fakeBackground">
                               <img src={item.img} alt="" />
