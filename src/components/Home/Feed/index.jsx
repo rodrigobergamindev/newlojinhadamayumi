@@ -11,7 +11,7 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Autoplay]);
 
 
 
-const tokenAcess = 'IGQVJXemVGRkdVM2xuNjFadVAtRDdtbktOb0R5N2E4RDJRdHdldnY0WmpfSTJLckRnYmNnU0NCMmlOMEZAXZAGJFOUlhU2ZAENEVUcTg1dHJ6VU1yZAkQwRURZAQ1MxajNkYnJqRGFJa3V1TEV4VjVOUkM0bQZDZD'
+const tokenAcess = 'IGQVJYa2kwSzJVNmltRWszMG9oak1jdXplemhWekNwVGR4d2J2MTE3bnc0YWdScHFIajdzR3p5N3NuM2t6RjFmUVRaeUxYMEZAVc2wxWGhGNlI0ZAnBIaTVYRXRvQjFxNjVXbjFvN3NYTVJmbnhDR3c1aQZDZD'
 
 
 
