@@ -12,7 +12,7 @@ import { Logo } from '../components/Logo'
 export default function App() {
 
   const [open, setOpen] = useState(false)
-  const router = useRouter()
+
   useEffect(() => {
    window.location.replace("https://www.lojinhadamayumi.com.br")
   });
